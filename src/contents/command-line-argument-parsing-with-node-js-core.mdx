@@ -1,0 +1,151 @@
+---
+author: Simon Plenderleith
+datetime: 2022-12-18T15:22:00Z
+title: Command-line argument parsing with Node.js core
+slug: command-line-argument-parsing-with-node-js-core
+featured: true
+draft: false
+tags:
+  - nodejs
+  - cli
+ogImage: ""
+description: "A test blog post."
+---
+
+{/* TODO: Is there a way to make these globally available for MDX posts? */}
+{/* TODO: Open PR to add @astro-community/astro-embed-utils as a dependency */}
+
+import { YouTube } from '@astro-community/astro-embed-youtube'
+import { Vimeo } from '@astro-community/astro-embed-vimeo'
+
+If you've ever written a command-line tool with Node.js, there's a good chance you've used a library like [minimist](https://www.npmjs.com/package/minimist), [Commander.js](https://www.npmjs.com/package/commander) or [Yargs](https://www.npmjs.com/package/yargs) to handle argument parsing for you.
+
+## YouTube video example
+
+<YouTube id="1ptcs5vRSvo" />
+
+## Vimeo video example
+
+<Vimeo id="558463601" />
+
+For example, when we run a script like this on the command-line:
+
+```bash
+node script.mjs --name "Budgie" --verbose
+```
+
+We could use `minimist` to help us parse those arguments:
+
+```javascript
+import minimist from "minimist";
+
+const args = minimist(process.argv.slice(2), {
+  string: ["name"],
+  boolean: ["verbose"],
+  alias: {
+    name: "n",
+    verbose: "v",
+  },
+});
+
+console.log(args);
+// > { _: [], verbose: true, v: true, name: 'Budgie', n: 'Budgie' }
+```
+
+The existing libraries for command-line argument parsing are all excellent choices, but there's now a high-level API that can help us with this available in Node.js core: `parseArgs`
+
+## Jump links
+
+## Example of argument parsing with parseArgs
+
+`parseArgs` is available as a function in the Node.js `util` module. Here's what our `minimist` example above looks like when rewritten with `parseArgs`:
+
+```javascript
+import { parseArgs } from "node:util";
+
+const args = parseArgs({
+  options: {
+    name: {
+      type: "string",
+      short: "n",
+    },
+    verbose: {
+      type: "boolean",
+      short: "v",
+    },
+  },
+});
+
+console.log(args);
+// > {
+// >   values: { name: 'Budgie', verbose: true },
+// >   positionals: []
+// > }
+```
+
+[View code example on GitHub](TODO)
+
+## Example of setting default values with parseArgs
+
+Default values landed in the [v0.11.0](https://www.npmjs.com/package/@pkgjs/parseargs/v/0.11.0) release of `@pkgjs/parseargs` and in Node.js TODO, allowing us to set default values for arguments like this:
+
+```javascript
+import { parseArgs } from "node:util";
+
+const args = parseArgs({
+  options: {
+	message: {
+	  type: "string",
+	  default: "Oh hai there!",
+	},
+  }
+});
+
+console.log(args);
+// > {
+// >   values: [Object: null prototype] { message: 'Oh hai there!' },
+// >   positionals: []
+// > }
+```
+
+[View code example on GitHub](TODO)
+
+`parseArgs` also supports:
+
+- Passing an option multiple times
+- Positional arguments
+- Strict mode (throws an error for unknown arguments, on by default)
+- Tokens for extending the built-in behaviour
+
+I recommend digging into the [Node.js documentation for parseArgs](https://nodejs.org/api/util.html#utilparseargsconfig) to learn more about these features.
+
+`parseArgs` isn't intended to replace more fully featured libraries like Commander.js or Yargs, but as [the project README](TODO) describes, it's a good option for "developers of simple CLI tools, ad-hoc scripts, deployed Node.js applications, and learning materials."
+
+## parseArgs development
+
+`parseArgs` was created by members of the Node.js package maintenance team: [John Gee](https://github.com/shadowspawn) (maintainer of Commander.js) and [Benjamin Coe](https://github.com/bcoe) (maintainer of yargs), as well as a number of [other contributors](https://twitter.com/BenjaminCoe/status/1532333341151744008).
+
+It's worth mentioning that the stability of `parseArgs` is currently marked as Experimental in Node.js, but the API is unlikely to change at this stage. The  `parseArgs` contributors are [keen to mark it as stable](https://twitter.com/BenjaminCoe/status/1578392838483623938) if it's meeting users needs.
+
+The `parseArgs` library is developed under the [pkgjs/parseargs](https://github.com/pkgjs/parseargs) repository on GitHub and upstreamed into Node.js. From what I've seen, this development process has been working well. I'm interested to see if this is an approach that other teams will adopt to contribute features to Node.js core.
+
+## Support in Node.js
+
+- Added: [v18.3.0](https://nodejs.org/en/blog/release/v18.3.0/)
+- Tokens option added: [v18.7.0](https://nodejs.org/en/blog/release/v18.7.0/)
+- Backported: [v16.17.0](https://nodejs.org/en/blog/release/v16.17.0/)
+- Default value option added: [v18.11.0](https://nodejs.org/en/blog/release/v18.11.0/)
+
+If you're using an older version of Node.js, you can still use `parseArgs` as it's published as a package on npm: [@pkgjs/parseargs](https://www.npmjs.com/package/@pkgjs/parseargs).
+
+## Related links
+
+- **Documentation:** [Node.js](https://nodejs.org/api/util.html#utilparseargsconfig)
+- **Node.js release notes:** [v18.3.0](https://nodejs.org/en/blog/release/v18.3.0/), [v18.7.0](https://nodejs.org/en/blog/release/v18.7.0/), [v16.17.0](https://nodejs.org/en/blog/release/v16.17.0/), [v18.11.0](https://nodejs.org/en/blog/release/v18.11.0/)
+- **Twitter threads:** [parseArgs landing in Node.js](https://twitter.com/simonplend/status/1532304908585779201), [Default option values](https://twitter.com/simonplend/status/1580515663638142979)
+
+If you want to dig in a little deeper I recommend checking out:
+
+- **[Parsing command line arguments with util.parseArgs()](https://exploringjs.com/nodejs-shell-scripting/ch_node-util-parseargs.html)**. From [Shell scripting with Node.js](https://exploringjs.com/nodejs-shell-scripting/toc.html) by [Dr. Axel Rauschmayer](https://twitter.com/rauschma).
+- **[Crafting Human Friendly CLIs with Node.js Core](https://github.com/simonplend/workshop-crafting-human-friendly-clis/)**.  If you're keen to learn more about building command-line tools with Node.js core, my friend [Kevin](https://twitter.com/dolearning/) and I ran a workshop on this topic at [NodeConf EU](https://www.nodeconf.eu/). The slides and exercises are all available on GitHub for you to work through at your own pace.
+- **[Node.js CLI Apps Best Practices](https://github.com/lirantal/nodejs-cli-apps-best-practices)**. By [Liran Tal](https://twitter.com/liran_tal/) and [contributors](https://github.com/lirantal/nodejs-cli-apps-best-practices#the-team-).
