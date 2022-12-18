@@ -11,7 +11,8 @@
   - Built in to Astro
 - [X] Support for Open Graph images and description
   - [X] Check how it's set up in this theme
-- [X] ConvertKit form integration
+- [~] ConvertKit form integration
+	- [ ] Weird empty error message in production
 - [~] Post tags and tag pages
   - [ ] Tidy up the layout
 - [X] Embed YouTube videos
@@ -46,7 +47,8 @@
  - [ ] Automatically convert headers to links
  - [ ] Show a # to the left on hover or focus
 - [ ] Dynamically generate Open Graph images
-  - [ ] Try out Vercel's OG library
+  - [ ] Try out Vercel's OG library - https://vercel.com/blog/introducing-vercel-og-image-generation-fast-dynamic-social-card-images
+	- [ ] Try out with Cloudinary
 - [ ] Estimated post reading time
   - [ ] Is this helpful?
 - [ ] Support for line highlighting in code blocks
@@ -62,6 +64,7 @@
   - Migrate existing blog posts
     - Get URLs from https://simonplend.com/sitemap_index.xml
   - Set up 301 redirects for old URLs
+    - https://docs.netlify.com/routing/redirects/
   - What are good ways to avoid losing Google juice?
 
 ## Blog inspiration
