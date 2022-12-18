@@ -4,14 +4,14 @@
 
 ### Required features
 
-- [ ] Deploy to Netlify
+- [X] Deploy to Netlify
 - [X] Support for MDX so I can embed components
 - [X] Automatic jump links/table of contents from headings
 - [X] Code syntax highlighting
   - Built in to Astro
-- [~] Support for Open Graph images and description
-  - [ ] Check how it's set up in this theme
-- [ ] ConvertKit form integration
+- [X] Support for Open Graph images and description
+  - [X] Check how it's set up in this theme
+- [X] ConvertKit form integration
 - [~] Post tags and tag pages
   - [ ] Tidy up the layout
 - [X] Embed YouTube videos
@@ -30,9 +30,11 @@
 - [ ] Add site analytics with Plausible
   - [ ] Copy and paste in their script tag
   - [ ] Only render in production build
+- [ ] Enable HTTPS on Netlify
 
 ### Nice to have features
 
+- [ ] Render a banner across the top when in development
 - [ ] Add IndieWeb features
   - [ ] Web mentions
   - [ ] What else?!

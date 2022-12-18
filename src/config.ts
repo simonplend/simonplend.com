@@ -5,6 +5,7 @@ export const SITE = {
   author: "Simon Plenderleith",
   desc: "TODO",
   title: "simonplend.com",
+  // TODO: Add a default Open Graph image
   ogImage: "TODO.png",
   lightAndDarkMode: true,
   postPerPage: 3,

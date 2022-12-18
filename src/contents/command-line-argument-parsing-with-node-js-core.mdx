@@ -8,15 +8,15 @@ draft: false
 tags:
   - nodejs
   - cli
-ogImage: ""
+ogImage: "https://simonplend.com/wp-content/uploads/2022/09/og-deploying-a-node-app-and-postgres-database-to-fly-io-1.png"
 description: "A test blog post."
 ---
 
 {/* TODO: Is there a way to make these globally available for MDX posts? */}
 {/* TODO: Open PR to add @astro-community/astro-embed-utils as a dependency */}
 
-import { YouTube } from '@astro-community/astro-embed-youtube'
-import { Vimeo } from '@astro-community/astro-embed-vimeo'
+import { YouTube } from "@astro-community/astro-embed-youtube";
+import { Vimeo } from "@astro-community/astro-embed-vimeo";
 
 If you've ever written a command-line tool with Node.js, there's a good chance you've used a library like [minimist](https://www.npmjs.com/package/minimist), [Commander.js](https://www.npmjs.com/package/commander) or [Yargs](https://www.npmjs.com/package/yargs) to handle argument parsing for you.
 
@@ -94,11 +94,11 @@ import { parseArgs } from "node:util";
 
 const args = parseArgs({
   options: {
-	message: {
-	  type: "string",
-	  default: "Oh hai there!",
-	},
-  }
+    message: {
+      type: "string",
+      default: "Oh hai there!",
+    },
+  },
 });
 
 console.log(args);
@@ -125,7 +125,7 @@ I recommend digging into the [Node.js documentation for parseArgs](https://nodej
 
 `parseArgs` was created by members of the Node.js package maintenance team: [John Gee](https://github.com/shadowspawn) (maintainer of Commander.js) and [Benjamin Coe](https://github.com/bcoe) (maintainer of yargs), as well as a number of [other contributors](https://twitter.com/BenjaminCoe/status/1532333341151744008).
 
-It's worth mentioning that the stability of `parseArgs` is currently marked as Experimental in Node.js, but the API is unlikely to change at this stage. The  `parseArgs` contributors are [keen to mark it as stable](https://twitter.com/BenjaminCoe/status/1578392838483623938) if it's meeting users needs.
+It's worth mentioning that the stability of `parseArgs` is currently marked as Experimental in Node.js, but the API is unlikely to change at this stage. The `parseArgs` contributors are [keen to mark it as stable](https://twitter.com/BenjaminCoe/status/1578392838483623938) if it's meeting users needs.
 
 The `parseArgs` library is developed under the [pkgjs/parseargs](https://github.com/pkgjs/parseargs) repository on GitHub and upstreamed into Node.js. From what I've seen, this development process has been working well. I'm interested to see if this is an approach that other teams will adopt to contribute features to Node.js core.
 
@@ -147,5 +147,5 @@ If you're using an older version of Node.js, you can still use `parseArgs` as it
 If you want to dig in a little deeper I recommend checking out:
 
 - **[Parsing command line arguments with util.parseArgs()](https://exploringjs.com/nodejs-shell-scripting/ch_node-util-parseargs.html)**. From [Shell scripting with Node.js](https://exploringjs.com/nodejs-shell-scripting/toc.html) by [Dr. Axel Rauschmayer](https://twitter.com/rauschma).
-- **[Crafting Human Friendly CLIs with Node.js Core](https://github.com/simonplend/workshop-crafting-human-friendly-clis/)**.  If you're keen to learn more about building command-line tools with Node.js core, my friend [Kevin](https://twitter.com/dolearning/) and I ran a workshop on this topic at [NodeConf EU](https://www.nodeconf.eu/). The slides and exercises are all available on GitHub for you to work through at your own pace.
+- **[Crafting Human Friendly CLIs with Node.js Core](https://github.com/simonplend/workshop-crafting-human-friendly-clis/)**. If you're keen to learn more about building command-line tools with Node.js core, my friend [Kevin](https://twitter.com/dolearning/) and I ran a workshop on this topic at [NodeConf EU](https://www.nodeconf.eu/). The slides and exercises are all available on GitHub for you to work through at your own pace.
 - **[Node.js CLI Apps Best Practices](https://github.com/lirantal/nodejs-cli-apps-best-practices)**. By [Liran Tal](https://twitter.com/liran_tal/) and [contributors](https://github.com/lirantal/nodejs-cli-apps-best-practices#the-team-).
