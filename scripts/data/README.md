@@ -1,5 +1,13 @@
 # Blog posts data
 
+## Migrating existing blog posts
+
+- Get existing post URLs from https://simonplend.com/post-sitemap.xml
+- Explore original posts:
+	- ~/Documents/Notes/Blog\ posts/Published/*.md
+	- ~/Documents/Notes/Quick\ tips/Published/*.md
+	- ~/Documents/Notes/Whats\ new\ in\ Node.js\ core/Features/**/Blog\ post.md
+
 ## Current sitemaps
 
 - Index sitemap: https://simonplend.com/sitemap_index.xml

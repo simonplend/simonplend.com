@@ -11,6 +11,8 @@
   "license": "MIT",
   "dependencies": {
     "glob": "^8.0.3",
-    "gray-matter": "^4.0.3"
+    "gray-matter": "^4.0.3",
+    "pino": "^8.8.0",
+    "pino-pretty": "^9.1.1"
   }
 }
