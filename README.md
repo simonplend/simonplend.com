@@ -63,9 +63,25 @@
 - [ ] Backwards plan launching a new version of simonplend.com
   - Migrate existing blog posts
     - Get URLs from https://simonplend.com/sitemap_index.xml
+    - Explore original posts:
+      - ~/Documents/Notes/Blog\ posts/Published/*.md
+      - ~/Documents/Notes/Quick\ tips/Published/*.md
+      - ~/Documents/Notes/Whats\ new\ in\ Node.js\ core/Features/**/Blog\ post.md
   - Set up 301 redirects for old URLs
     - https://docs.netlify.com/routing/redirects/
   - What are good ways to avoid losing Google juice?
+
+```typescript
+type BlogPosts = Array<{
+  title: string;
+  originalUrl: string;
+  newUrl: string;
+  sourceFilepath: string;
+  published: string;
+  openGraphImage: string;
+  openGraphDescription: string;
+}>
+```
 
 ## Blog inspiration
 
