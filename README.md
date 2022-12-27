@@ -60,23 +60,36 @@
 
 ## TODO
 
-- [ ] Backwards plan launching a new version of simonplend.com
-  - Migrate existing blog posts
-  - Set up 301 redirects for old URLs
-    - https://docs.netlify.com/routing/redirects/
-  - What are good ways to avoid losing Google juice?
-
-```typescript
-type BlogPosts = Array<{
-  title: string;
-  originalUrl: string;
-  newUrl: string;
-  sourceFilepath: string;
-  published: string;
-  openGraphImage: string;
-  openGraphDescription: string;
-}>
-```
+- [ ] Backwards plan launching new version of simonplend.com
+- [~] Migrate existing blog posts
+  - [X] Explore source blog posts:
+    - ~/Documents/Notes/Blog\ posts/Published/*.md
+    - ~/Documents/Notes/Quick\ tips/Published/*.md
+    - ~/Documents/Notes/Videos/Published/*.md
+    - ~/Documents/Notes/Whats\ new\ in\ Node.js\ core/**/Blog\ post.md
+  - [X] Match blog posts on simonplend.com with source blog posts
+    - [X] Parse list of URLs from https://simonplend.com/post-sitemap.xml
+    - [X] Parse list of URLs from source blog posts
+    - [X] Identify source blog posts that don't have matching source blog posts
+    - [X] Figure out what to about missing source blog posts ([`scripts/match-posts.mjs`](scripts/match-posts.mjs))
+    - [X] Manually set `url` in frontmatter of source blog posts that are missing it
+  - [~] Normalise frontmatter for blog posts
+    - [X] Decide on new structure
+    - [~] Write new frontmatter structure to `posts-source.json`
+      - [ ] Find and fix two posts that don't have a `published` date
+  - [ ] Add tags to source blog posts
+    - [ ] Parse categories and tags from blog posts on simonplend.com
+    - [ ] Decide which to keep as tags
+    - [ ] Update tags field in source blog posts frontmatter
+  - [ ] Update frontmatter for all blog posts
+    - [ ] Figure out a library to use to rewrite frontmatter
+    - [ ] Replace existing frontmatter in all blog posts
+    - [X] Fix WNNC blog posts that have frontmatter that can't be parsed
+      - e.g. `![[og-provide-context-with-abortsignal-reason.png]]`
+- [ ] Identify pages to migrate from simonplend.com
+- [ ] Set up 301 redirects for old URLs
+  - https://docs.netlify.com/routing/redirects/
+- [ ] Find out good ways to avoid losing Google juice
 
 ## Blog inspiration
 

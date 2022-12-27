@@ -1,0 +1,215 @@
+[
+    {
+        "url": "https://simonplend.com/how-can-i-handle-common-checks-across-different-endpoints-in-an-express-application/"
+    },
+    {
+        "url": "https://simonplend.com/how-to-use-fetch-to-post-form-data-as-json-to-your-api/"
+    },
+    {
+        "url": "https://simonplend.com/how-to-build-filtering-into-your-rest-api/"
+    },
+    {
+        "url": "https://simonplend.com/how-to-fix-those-confusing-cors-errors-when-calling-your-express-api/"
+    },
+    {
+        "url": "https://simonplend.com/what-is-a-good-directory-structure-for-a-monorepo-with-a-node-js-back-end-and-react-front-end/"
+    },
+    {
+        "url": "https://simonplend.com/week-notes-1/"
+    },
+    {
+        "url": "https://simonplend.com/week-notes-2/"
+    },
+    {
+        "url": "https://simonplend.com/week-notes-3/"
+    },
+    {
+        "url": "https://simonplend.com/notes-from-nodeconf-remote-2020/"
+    },
+    {
+        "url": "https://simonplend.com/week-notes-4/"
+    },
+    {
+        "url": "https://simonplend.com/week-notes-5/"
+    },
+    {
+        "url": "https://simonplend.com/week-notes-6/"
+    },
+    {
+        "url": "https://simonplend.com/how-to-create-an-error-handler-for-your-express-api/"
+    },
+    {
+        "url": "https://simonplend.com/node-js-now-supports-named-imports-from-commonjs-modules-but-what-does-that-mean/"
+    },
+    {
+        "url": "https://simonplend.com/are-you-using-promises-and-async-await-safely-in-node-js/"
+    },
+    {
+        "url": "https://simonplend.com/talk-at-js-monthly-london-make-the-most-of-modern-javascript-with-fastify/"
+    },
+    {
+        "url": "https://simonplend.com/using-object-shorthand-when-debugging/"
+    },
+    {
+        "url": "https://simonplend.com/how-to-generate-a-stack-trace-in-node-js/"
+    },
+    {
+        "url": "https://simonplend.com/curl-download-file-command/"
+    },
+    {
+        "url": "https://simonplend.com/dont-install-body-parser-its-already-bundled-with-express/"
+    },
+    {
+        "url": "https://simonplend.com/format-javascript-objects-and-arrays-in-debug-output/"
+    },
+    {
+        "url": "https://simonplend.com/save-your-git-stashes-with-helpful-descriptions/"
+    },
+    {
+        "url": "https://simonplend.com/how-to-review-your-changes-with-git-piece-by-piece/"
+    },
+    {
+        "url": "https://simonplend.com/use-the-github-cli-to-help-reduce-context-switching/"
+    },
+    {
+        "url": "https://simonplend.com/display-the-internal-express-logs-to-help-you-debug-your-application/"
+    },
+    {
+        "url": "https://simonplend.com/ditch-double-bang-and-try-boolean-instead/"
+    },
+    {
+        "url": "https://simonplend.com/how-to-output-the-contents-of-a-file-in-reverse/"
+    },
+    {
+        "url": "https://simonplend.com/how-to-restore-changes-which-youve-reverted-from-your-main-git-branch/"
+    },
+    {
+        "url": "https://simonplend.com/what-are-the-express-req-and-res-objects/"
+    },
+    {
+        "url": "https://simonplend.com/name-your-functions-for-better-stack-traces/"
+    },
+    {
+        "url": "https://simonplend.com/how-to-list-npm-run-scripts-for-a-project/"
+    },
+    {
+        "url": "https://simonplend.com/express-uses-finalhandler-for-the-default-error-handler/"
+    },
+    {
+        "url": "https://simonplend.com/only-use-dotenv-in-development/"
+    },
+    {
+        "url": "https://simonplend.com/try-a-standard-format-for-api-error-responses/"
+    },
+    {
+        "url": "https://simonplend.com/try-out-command-line-tools-with-npx/"
+    },
+    {
+        "url": "https://simonplend.com/how-to-speed-up-npm-install-in-your-node-js-builds/"
+    },
+    {
+        "url": "https://simonplend.com/notes-from-cityjs-conference-2021/"
+    },
+    {
+        "url": "https://simonplend.com/how-to-use-the-nullish-coalescing-operator/"
+    },
+    {
+        "url": "https://simonplend.com/background-a-process-in-the-terminal/"
+    },
+    {
+        "url": "https://simonplend.com/5-best-practices-for-building-a-modern-api-with-express/"
+    },
+    {
+        "url": "https://simonplend.com/how-to-send-consistent-error-responses-from-your-express-api/"
+    },
+    {
+        "url": "https://simonplend.com/how-to-securely-call-an-authenticated-api-from-your-front-end/"
+    },
+    {
+        "url": "https://simonplend.com/what-you-need-to-know-about-es-modules-in-node-js/"
+    },
+    {
+        "url": "https://simonplend.com/how-does-middleware-work-in-express/"
+    },
+    {
+        "url": "https://simonplend.com/tips-for-migrating-from-express-to-fastify/"
+    },
+    {
+        "url": "https://simonplend.com/generate-v4-uuids-without-needing-the-uuid-library/"
+    },
+    {
+        "url": "https://simonplend.com/cancel-async-operations-with-abortcontroller/"
+    },
+    {
+        "url": "https://simonplend.com/guidelines-for-choosing-a-node-js-framework/"
+    },
+    {
+        "url": "https://simonplend.com/talk-improving-your-applications-with-abortcontroller/"
+    },
+    {
+        "url": "https://simonplend.com/2021-year-in-review/"
+    },
+    {
+        "url": "https://simonplend.com/take-advantage-of-promise-based-apis-in-node-js/"
+    },
+    {
+        "url": "https://simonplend.com/whats-new-in-node-js-core-september-2021/"
+    },
+    {
+        "url": "https://simonplend.com/make-your-imports-clearer-with-the-node-protocol/"
+    },
+    {
+        "url": "https://simonplend.com/automatically-cancel-async-operations-with-abortsignal-timeout/"
+    },
+    {
+        "url": "https://simonplend.com/the-fetch-api-in-node-js/"
+    },
+    {
+        "url": "https://simonplend.com/import-json-in-es-modules/"
+    },
+    {
+        "url": "https://simonplend.com/provide-context-with-abortsignal-reason/"
+    },
+    {
+        "url": "https://simonplend.com/avoid-boilerplate-code-when-handling-abort-signals/"
+    },
+    {
+        "url": "https://simonplend.com/deep-clone-values-with-structuredclone/"
+    },
+    {
+        "url": "https://simonplend.com/whats-new-in-node-js-core-march-2022-edition/"
+    },
+    {
+        "url": "https://simonplend.com/how-to-cancel-an-http-request-in-node-js/"
+    },
+    {
+        "url": "https://simonplend.com/trying-out-http-toolkit-with-fastify-http-proxy/"
+    },
+    {
+        "url": "https://simonplend.com/learning-fastify-part-4-create-a-proxy-server-for-api-authentication/"
+    },
+    {
+        "url": "https://simonplend.com/learning-fastify-how-to-migrate-your-app-from-express-to-fastify/"
+    },
+    {
+        "url": "https://simonplend.com/workshop-recording-get-started-with-fastify/"
+    },
+    {
+        "url": "https://simonplend.com/use-fastify-hooks-to-set-headers-on-every-response/"
+    },
+    {
+        "url": "https://simonplend.com/how-to-handle-request-validation-in-your-express-api/"
+    },
+    {
+        "url": "https://simonplend.com/send-awesome-structured-error-responses-with-express/"
+    },
+    {
+        "url": "https://simonplend.com/get-started-with-validation-in-node-js/"
+    },
+    {
+        "url": "https://simonplend.com/deploying-a-node-app-and-postgres-database-to-fly-io/"
+    },
+    {
+        "url": "https://simonplend.com/command-line-argument-parsing-with-node-js-core/"
+    }
+]

@@ -1,0 +1,1974 @@
+[
+  {
+    "title": null,
+    "url": "https://simonplend.com/how-can-i-handle-common-checks-across-different-endpoints-in-an-express-application/",
+    "sourceFilepath": "/Users/simonplend/Documents/Notes/Blog posts/Published/2020-07-24 - How can I handle common checks across different endpoints in an Express application.md",
+    "frontmatter": {
+      "published": "July 24, 2020",
+      "lastUpdated": "",
+      "slug": "how-can-i-handle-common-checks-across-different-endpoints-in-an-express-application",
+      "blogUrl": "https://simonplend.com/how-can-i-handle-common-checks-across-different-endpoints-in-an-express-application/",
+      "twitterUrl": "",
+      "devToUrl": "",
+      "redditUrl": "",
+      "tags": "express",
+      "openGraphDescription": "",
+      "openGraphImage": null,
+      "notes": null
+    },
+    "rawFrontmatter": {
+      "published": "Jul 24, 2020",
+      "ebomb_url": "https://simonplend.com/how-can-i-handle-common-checks-across-different-endpoints-in-an-express-application/",
+      "tags": "express"
+    }
+  },
+  {
+    "title": null,
+    "url": "https://simonplend.com/what-is-a-good-directory-structure-for-a-monorepo-with-a-node-js-back-end-and-react-front-end/",
+    "sourceFilepath": "/Users/simonplend/Documents/Notes/Blog posts/Published/2020-08-07 - What is a good directory structure for a monorepo with a Node.js back end and React front end?.md",
+    "frontmatter": {
+      "published": "August 7, 2020",
+      "lastUpdated": "",
+      "slug": "what-is-a-good-directory-structure-for-a-monorepo-with-a-node-js-back-end-and-react-front-end",
+      "blogUrl": "https://simonplend.com/what-is-a-good-directory-structure-for-a-monorepo-with-a-node-js-back-end-and-react-front-end/",
+      "twitterUrl": "",
+      "devToUrl": "",
+      "redditUrl": "",
+      "tags": "Structure",
+      "openGraphDescription": "",
+      "openGraphImage": null,
+      "notes": null
+    },
+    "rawFrontmatter": {
+      "Ebomb URL": "https://simonplend.com/what-is-a-good-directory-structure-for-a-monorepo-with-a-node-js-back-end-and-react-front-end/",
+      "Format": "Blog post",
+      "Published": "Aug 7, 2020",
+      "Status": "Published 🎉",
+      "Tags": "Structure"
+    }
+  },
+  {
+    "title": null,
+    "url": "https://simonplend.com/5-best-practices-for-building-a-modern-api-with-express/",
+    "sourceFilepath": "/Users/simonplend/Documents/Notes/Blog posts/Published/2020-09-07 - 5 best practices for building a modern API with Express.md",
+    "frontmatter": {
+      "published": "September 7, 2020",
+      "lastUpdated": "April 6, 2021",
+      "slug": "5-best-practices-for-building-a-modern-api-with-express",
+      "blogUrl": "https://simonplend.com/5-best-practices-for-building-a-modern-api-with-express/",
+      "twitterUrl": "https://twitter.com/simonplend/status/1302978523921965056",
+      "devToUrl": [
+        [
+          "5 best practices for building a modern API with Express"
+        ]
+      ],
+      "redditUrl": "https://www.reddit.com/r/node/comments/io8k9t/5_best_practices_for_building_a_modern_api_with/",
+      "tags": "CORS, Error handling, Express, async",
+      "openGraphDescription": "",
+      "openGraphImage": null,
+      "notes": null
+    },
+    "rawFrontmatter": {
+      "published": "Sep 7, 2020",
+      "last_updated": "Apr 6, 2021",
+      "Ebomb URL": "https://simonplend.com/5-best-practices-for-building-a-modern-api-with-express/",
+      "DEV post": [
+        [
+          "5 best practices for building a modern API with Express"
+        ]
+      ],
+      "Format": "Blog post",
+      "Reddit post": "https://www.reddit.com/r/node/comments/io8k9t/5_best_practices_for_building_a_modern_api_with/",
+      "Status": "Published 🎉",
+      "Tags": "CORS, Error handling, Express, async",
+      "Tweet URL": "https://twitter.com/simonplend/status/1302978523921965056"
+    }
+  },
+  {
+    "title": null,
+    "url": "https://simonplend.com/how-to-use-fetch-to-post-form-data-as-json-to-your-api/",
+    "sourceFilepath": "/Users/simonplend/Documents/Notes/Blog posts/Published/2020-09-14 - How to use fetch to POST form data as JSON to your API.md",
+    "frontmatter": {
+      "published": "September 14, 2020",
+      "lastUpdated": "",
+      "slug": "how-to-use-fetch-to-post-form-data-as-json-to-your-api",
+      "blogUrl": "https://simonplend.com/how-to-use-fetch-to-post-form-data-as-json-to-your-api/",
+      "twitterUrl": "https://twitter.com/simonplend/status/1305503421861171200",
+      "devToUrl": "https://dev.to/simonplend/how-to-use-fetch-to-post-form-data-as-json-to-your-api-2pih",
+      "redditUrl": "",
+      "tags": "APIs, Fetch",
+      "openGraphDescription": "",
+      "openGraphImage": null,
+      "notes": null
+    },
+    "rawFrontmatter": {
+      "Ebomb URL": "https://simonplend.com/how-to-use-fetch-to-post-form-data-as-json-to-your-api/",
+      "DEV URL": "https://dev.to/simonplend/how-to-use-fetch-to-post-form-data-as-json-to-your-api-2pih",
+      "Tweet URL": "https://twitter.com/simonplend/status/1305503421861171200",
+      "Format": "Blog post",
+      "Published": "Sep 14, 2020",
+      "Status": "Published 🎉",
+      "Tags": "APIs, Fetch"
+    }
+  },
+  {
+    "title": null,
+    "url": "https://simonplend.com/how-to-build-filtering-into-your-rest-api/",
+    "sourceFilepath": "/Users/simonplend/Documents/Notes/Blog posts/Published/2020-09-25 - How to build filtering into your REST API.md",
+    "frontmatter": {
+      "published": "September 25, 2020",
+      "lastUpdated": "",
+      "slug": "how-to-build-filtering-into-your-rest-api",
+      "blogUrl": "https://simonplend.com/how-to-build-filtering-into-your-rest-api/",
+      "twitterUrl": "",
+      "devToUrl": "",
+      "redditUrl": "",
+      "tags": "APIs",
+      "openGraphDescription": "",
+      "openGraphImage": null,
+      "notes": null
+    },
+    "rawFrontmatter": {
+      "published": "Sep 25, 2020",
+      "ebomb_url": "https://simonplend.com/how-to-build-filtering-into-your-rest-api/",
+      "tags": "APIs"
+    }
+  },
+  {
+    "title": null,
+    "url": "https://simonplend.com/node-js-now-supports-named-imports-from-commonjs-modules-but-what-does-that-mean/",
+    "sourceFilepath": "/Users/simonplend/Documents/Notes/Blog posts/Published/2020-10-02 - Node.js now supports named imports from CommonJS modules, but what does that mean?.md",
+    "frontmatter": {
+      "published": "October 2, 2020",
+      "lastUpdated": "",
+      "slug": "node-js-now-supports-named-imports-from-commonjs-modules-but-what-does-that-mean",
+      "blogUrl": "https://simonplend.com/node-js-now-supports-named-imports-from-commonjs-modules-but-what-does-that-mean/",
+      "twitterUrl": "https://twitter.com/simonplend/status/1311986648582893568",
+      "devToUrl": "https://dev.to/simonplend/node-js-now-supports-named-imports-from-commonjs-modules-but-what-does-that-mean-872",
+      "redditUrl": "",
+      "tags": "Modules",
+      "openGraphDescription": "",
+      "openGraphImage": null,
+      "notes": null
+    },
+    "rawFrontmatter": {
+      "DEV post": "https://dev.to/simonplend/node-js-now-supports-named-imports-from-commonjs-modules-but-what-does-that-mean-872",
+      "Ebomb URL": "https://simonplend.com/node-js-now-supports-named-imports-from-commonjs-modules-but-what-does-that-mean/",
+      "Format": "Blog post",
+      "Published": "Oct 2, 2020",
+      "Status": "Published 🎉",
+      "Tags": "Modules",
+      "Tweet URL": "https://twitter.com/simonplend/status/1311986648582893568"
+    }
+  },
+  {
+    "title": null,
+    "url": "https://simonplend.com/how-to-fix-those-confusing-cors-errors-when-calling-your-express-api/",
+    "sourceFilepath": "/Users/simonplend/Documents/Notes/Blog posts/Published/2020-10-20 - How to fix those confusing CORS errors when calling your Express API.md",
+    "frontmatter": {
+      "published": "October 20, 2020",
+      "lastUpdated": "",
+      "slug": "how-to-fix-those-confusing-cors-errors-when-calling-your-express-api",
+      "blogUrl": "https://simonplend.com/how-to-fix-those-confusing-cors-errors-when-calling-your-express-api/",
+      "twitterUrl": "https://twitter.com/simonplend/status/1318502249195360256",
+      "devToUrl": "https://dev.to/simonplend/how-to-fix-those-confusing-cors-errors-when-calling-your-express-api-2oe4",
+      "redditUrl": "https://www.reddit.com/r/node/comments/jfb8cu/how_to_fix_those_confusing_cors_errors_when/",
+      "tags": "CORS, Express",
+      "openGraphDescription": "",
+      "openGraphImage": null,
+      "notes": null
+    },
+    "rawFrontmatter": {
+      "DEV post": "https://dev.to/simonplend/how-to-fix-those-confusing-cors-errors-when-calling-your-express-api-2oe4",
+      "Ebomb URL": "https://simonplend.com/how-to-fix-those-confusing-cors-errors-when-calling-your-express-api/",
+      "Format": "Blog post",
+      "Published": "Oct 20, 2020",
+      "Reddit post": "https://www.reddit.com/r/node/comments/jfb8cu/how_to_fix_those_confusing_cors_errors_when/",
+      "Status": "Published 🎉",
+      "Tags": "CORS, Express",
+      "Tweet URL": "https://twitter.com/simonplend/status/1318502249195360256"
+    }
+  },
+  {
+    "title": null,
+    "url": "https://simonplend.com/how-to-send-consistent-error-responses-from-your-express-api/",
+    "sourceFilepath": "/Users/simonplend/Documents/Notes/Blog posts/Published/2020-10-29 - How to send consistent error responses from your Express API.md",
+    "frontmatter": {
+      "published": "October 29, 2020",
+      "lastUpdated": "April 6, 2021",
+      "slug": "how-to-send-consistent-error-responses-from-your-express-api",
+      "blogUrl": "https://simonplend.com/how-to-send-consistent-error-responses-from-your-express-api/",
+      "twitterUrl": "https://twitter.com/simonplend/status/1321830576278700032",
+      "devToUrl": "https://dev.to/simonplend/how-to-send-consistent-error-responses-from-your-express-api-44k7",
+      "redditUrl": "https://www.reddit.com/r/node/comments/jkbgcu/how_to_send_consistent_error_responses_from_your/",
+      "tags": "express",
+      "openGraphDescription": "",
+      "openGraphImage": null,
+      "notes": null
+    },
+    "rawFrontmatter": {
+      "published": "Oct 29, 2020",
+      "last_updated": "Apr 6, 2021",
+      "ebomb_url": "https://simonplend.com/how-to-send-consistent-error-responses-from-your-express-api/",
+      "dev_post": "https://dev.to/simonplend/how-to-send-consistent-error-responses-from-your-express-api-44k7",
+      "reddit_post": "https://www.reddit.com/r/node/comments/jkbgcu/how_to_send_consistent_error_responses_from_your/",
+      "tweet_url": "https://twitter.com/simonplend/status/1321830576278700032",
+      "tags": "express"
+    }
+  },
+  {
+    "title": null,
+    "url": "https://simonplend.com/notes-from-nodeconf-remote-2020/",
+    "sourceFilepath": "/Users/simonplend/Documents/Notes/Blog posts/Published/2020-11-09 - Notes from NodeConf Remote 2020.md",
+    "frontmatter": {
+      "published": "November 9, 2020",
+      "lastUpdated": "",
+      "slug": "notes-from-nodeconf-remote-2020",
+      "blogUrl": "https://simonplend.com/notes-from-nodeconf-remote-2020/",
+      "twitterUrl": "https://twitter.com/simonplend/status/1325767885172731906",
+      "devToUrl": "https://dev.to/simonplend/notes-from-nodeconf-remote-2020-npg",
+      "redditUrl": "",
+      "tags": "Notes",
+      "openGraphDescription": "",
+      "openGraphImage": null,
+      "notes": null
+    },
+    "rawFrontmatter": {
+      "DEV post": "https://dev.to/simonplend/notes-from-nodeconf-remote-2020-npg",
+      "Ebomb URL": "https://simonplend.com/notes-from-nodeconf-remote-2020/",
+      "Format": "Blog post",
+      "Published": "Nov 9, 2020",
+      "Status": "Published 🎉",
+      "Tags": "Notes",
+      "Tweet URL": "https://twitter.com/simonplend/status/1325767885172731906"
+    }
+  },
+  {
+    "title": null,
+    "url": "https://simonplend.com/how-to-handle-request-validation-in-your-express-api/",
+    "sourceFilepath": "/Users/simonplend/Documents/Notes/Blog posts/Published/2020-11-19 - How to handle request validation in your Express API.md",
+    "frontmatter": {
+      "published": "November 19, 2020",
+      "lastUpdated": "April 6, 2021",
+      "slug": "how-to-handle-request-validation-in-your-express-api",
+      "blogUrl": "https://simonplend.com/how-to-handle-request-validation-in-your-express-api/",
+      "twitterUrl": "https://twitter.com/simonplend/status/1329756381986103301",
+      "devToUrl": "https://dev.to/simonplend/how-can-you-handle-request-validation-in-your-express-based-api-4a2i",
+      "redditUrl": "https://www.reddit.com/r/node/comments/k974ou/how_to_handle_request_validation_in_your_express/",
+      "tags": "Error handling, Express, JSON Schema",
+      "openGraphDescription": "",
+      "openGraphImage": null,
+      "notes": null
+    },
+    "rawFrontmatter": {
+      "published": "Nov 19, 2020",
+      "last_updated": "Apr 6, 2021",
+      "DEV post": "https://dev.to/simonplend/how-can-you-handle-request-validation-in-your-express-based-api-4a2i",
+      "Ebomb URL": "https://simonplend.com/how-to-handle-request-validation-in-your-express-api/",
+      "Format": "Blog post",
+      "Reddit post": "https://www.reddit.com/r/node/comments/k974ou/how_to_handle_request_validation_in_your_express/",
+      "Status": "Published 🎉",
+      "Tags": "Error handling, Express, JSON Schema",
+      "Tweet URL": "https://twitter.com/simonplend/status/1329756381986103301"
+    }
+  },
+  {
+    "title": null,
+    "url": "https://simonplend.com/how-to-create-an-error-handler-for-your-express-api/",
+    "sourceFilepath": "/Users/simonplend/Documents/Notes/Blog posts/Published/2020-12-07 - How to create an error handler for your Express API.md",
+    "frontmatter": {
+      "published": "December 7, 2020",
+      "lastUpdated": "",
+      "slug": "how-to-create-an-error-handler-for-your-express-api",
+      "blogUrl": "https://simonplend.com/how-to-create-an-error-handler-for-your-express-api/",
+      "twitterUrl": "https://twitter.com/simonplend/status/1335889421695070209",
+      "devToUrl": "https://dev.to/simonplend/how-to-create-an-error-handler-for-your-express-api-j26",
+      "redditUrl": "",
+      "tags": "Error handling, Express",
+      "openGraphDescription": "",
+      "openGraphImage": null,
+      "notes": null
+    },
+    "rawFrontmatter": {
+      "DEV post": "https://dev.to/simonplend/how-to-create-an-error-handler-for-your-express-api-j26",
+      "Ebomb URL": "https://simonplend.com/how-to-create-an-error-handler-for-your-express-api/",
+      "Format": "Blog post",
+      "Published": "Dec 7, 2020",
+      "Status": "Published 🎉",
+      "Tags": "Error handling, Express",
+      "Tweet URL": "https://twitter.com/simonplend/status/1335889421695070209"
+    }
+  },
+  {
+    "title": null,
+    "url": "https://simonplend.com/2021-year-in-review/",
+    "sourceFilepath": "/Users/simonplend/Documents/Notes/Blog posts/Published/2021 year in review.md",
+    "frontmatter": {
+      "published": "January 9, 2022",
+      "lastUpdated": "",
+      "slug": "2021-year-in-review",
+      "blogUrl": "https://simonplend.com/2021-year-in-review/",
+      "twitterUrl": "",
+      "devToUrl": "",
+      "redditUrl": "",
+      "tags": "",
+      "openGraphDescription": "",
+      "openGraphImage": null,
+      "notes": null
+    },
+    "rawFrontmatter": {
+      "published": "2022-01-09T00:00:00.000Z",
+      "url": "https://simonplend.com/2021-year-in-review/"
+    }
+  },
+  {
+    "title": null,
+    "url": "https://simonplend.com/send-awesome-structured-error-responses-with-express/",
+    "sourceFilepath": "/Users/simonplend/Documents/Notes/Blog posts/Published/2021-01-06 - Send awesome structured error responses with Express.md",
+    "frontmatter": {
+      "published": "January 6, 2021",
+      "lastUpdated": "",
+      "slug": "send-awesome-structured-error-responses-with-express",
+      "blogUrl": "https://simonplend.com/send-awesome-structured-error-responses-with-express/",
+      "twitterUrl": "https://twitter.com/simonplend/status/1346856018316300288",
+      "devToUrl": "https://dev.to/simonplend/send-awesome-structured-error-responses-with-express-3pg6",
+      "redditUrl": "https://www.reddit.com/r/node/comments/krtjkc/send_awesome_structured_error_responses_with/",
+      "tags": "Error handling, Express, category-node-js, category-express,  problem-details, error-responses",
+      "openGraphDescription": "",
+      "openGraphImage": null,
+      "notes": null
+    },
+    "rawFrontmatter": {
+      "DEV post": "https://dev.to/simonplend/send-awesome-structured-error-responses-with-express-3pg6",
+      "Ebomb URL": "https://simonplend.com/send-awesome-structured-error-responses-with-express/",
+      "Format": "Blog post",
+      "Published": "Jan 6, 2021",
+      "Reddit post": "https://www.reddit.com/r/node/comments/krtjkc/send_awesome_structured_error_responses_with/",
+      "Status": "Published 🎉",
+      "Tags": "Error handling, Express, category-node-js, category-express,  problem-details, error-responses",
+      "Tweet URL": "https://twitter.com/simonplend/status/1346856018316300288"
+    }
+  },
+  {
+    "title": null,
+    "url": "https://simonplend.com/what-you-need-to-know-about-es-modules-in-node-js/",
+    "sourceFilepath": "/Users/simonplend/Documents/Notes/Blog posts/Published/2021-01-14 - What you need to know about ES modules in Node.js.md",
+    "frontmatter": {
+      "published": "January 14, 2021",
+      "lastUpdated": "",
+      "slug": "what-you-need-to-know-about-es-modules-in-node-js",
+      "blogUrl": "https://simonplend.com/what-you-need-to-know-about-es-modules-in-node-js/",
+      "twitterUrl": "https://twitter.com/simonplend/status/1350027447186571265",
+      "devToUrl": "",
+      "redditUrl": "https://www.reddit.com/r/node/comments/kxrws2/what_you_need_to_know_about_es_modules_in_nodejs/",
+      "tags": "Modules",
+      "openGraphDescription": "",
+      "openGraphImage": null,
+      "notes": null
+    },
+    "rawFrontmatter": {
+      "Ebomb URL": "https://simonplend.com/what-you-need-to-know-about-es-modules-in-node-js/",
+      "Format": "Blog post",
+      "Published": "Jan 14, 2021",
+      "Reddit post": "https://www.reddit.com/r/node/comments/kxrws2/what_you_need_to_know_about_es_modules_in_nodejs/",
+      "Status": "Published 🎉",
+      "Tags": "Modules",
+      "Tweet URL": "https://twitter.com/simonplend/status/1350027447186571265"
+    }
+  },
+  {
+    "title": null,
+    "url": "https://simonplend.com/how-to-securely-call-an-authenticated-api-from-your-front-end/",
+    "sourceFilepath": "/Users/simonplend/Documents/Notes/Blog posts/Published/2021-01-25 - How to securely call an authenticated API from your front end.md",
+    "frontmatter": {
+      "published": "January 25, 2021",
+      "lastUpdated": "April 6, 2021",
+      "slug": "how-to-securely-call-an-authenticated-api-from-your-front-end",
+      "blogUrl": "https://simonplend.com/how-to-securely-call-an-authenticated-api-from-your-front-end/",
+      "twitterUrl": "https://twitter.com/simonplend/status/1353739658451185666",
+      "devToUrl": "https://dev.to/simonplend/how-to-securely-call-an-authenticated-api-from-your-front-end-19md",
+      "redditUrl": "https://www.reddit.com/r/node/comments/mrcc0u/how_to_securely_call_an_authenticated_api_from/",
+      "tags": "APIs, Fastify, Security",
+      "openGraphDescription": "",
+      "openGraphImage": null,
+      "notes": null
+    },
+    "rawFrontmatter": {
+      "published": "Jan 25, 2021",
+      "last_updated": "Apr 6, 2021",
+      "DEV post": "https://dev.to/simonplend/how-to-securely-call-an-authenticated-api-from-your-front-end-19md",
+      "Ebomb URL": "https://simonplend.com/how-to-securely-call-an-authenticated-api-from-your-front-end/",
+      "Reddit URL": "https://www.reddit.com/r/node/comments/mrcc0u/how_to_securely_call_an_authenticated_api_from/",
+      "Format": "Blog post",
+      "Tags": "APIs, Fastify, Security",
+      "Tweet URL": "https://twitter.com/simonplend/status/1353739658451185666"
+    }
+  },
+  {
+    "title": null,
+    "url": "https://simonplend.com/are-you-using-promises-and-async-await-safely-in-node-js/",
+    "sourceFilepath": "/Users/simonplend/Documents/Notes/Blog posts/Published/2021-03-01 - Are you using promises and async-await safely in Node.js?.md",
+    "frontmatter": {
+      "published": "March 1, 2021",
+      "lastUpdated": "",
+      "slug": "are-you-using-promises-and-async-await-safely-in-node-js",
+      "blogUrl": "https://simonplend.com/are-you-using-promises-and-async-await-safely-in-node-js/",
+      "twitterUrl": "",
+      "devToUrl": "https://dev.to/simonplend/are-you-using-promises-and-async-await-safely-in-node-js-1d27",
+      "redditUrl": "",
+      "tags": "",
+      "openGraphDescription": "",
+      "openGraphImage": null,
+      "notes": null
+    },
+    "rawFrontmatter": {
+      "published": "Mar 1, 2021",
+      "tags": null,
+      "ebomb_url": "https://simonplend.com/are-you-using-promises-and-async-await-safely-in-node-js/",
+      "url_dev": "https://dev.to/simonplend/are-you-using-promises-and-async-await-safely-in-node-js-1d27"
+    }
+  },
+  {
+    "title": null,
+    "url": "https://simonplend.com/talk-at-js-monthly-london-make-the-most-of-modern-javascript-with-fastify/",
+    "sourceFilepath": "/Users/simonplend/Documents/Notes/Blog posts/Published/2021-03-02 - Talk at JS Monthly London - Make the most of modern JavaScript with Fastify.md",
+    "frontmatter": {
+      "published": "March 2, 2021",
+      "lastUpdated": "",
+      "slug": "talk-at-js-monthly-london-make-the-most-of-modern-javascript-with-fastify",
+      "blogUrl": "https://simonplend.com/talk-at-js-monthly-london-make-the-most-of-modern-javascript-with-fastify/",
+      "twitterUrl": "",
+      "devToUrl": "",
+      "redditUrl": "",
+      "tags": "",
+      "openGraphDescription": "",
+      "openGraphImage": null,
+      "notes": null
+    },
+    "rawFrontmatter": {
+      "published": "Mar 2, 2021",
+      "tags": null,
+      "url": "https://simonplend.com/talk-at-js-monthly-london-make-the-most-of-modern-javascript-with-fastify/"
+    }
+  },
+  {
+    "title": null,
+    "url": "https://simonplend.com/notes-from-cityjs-conference-2021/",
+    "sourceFilepath": "/Users/simonplend/Documents/Notes/Blog posts/Published/2021-03-24 - Notes from CityJS Conference 2021.md",
+    "frontmatter": {
+      "published": "March 24, 2021",
+      "lastUpdated": "",
+      "slug": "notes-from-cityjs-conference-2021",
+      "blogUrl": "https://simonplend.com/notes-from-cityjs-conference-2021/",
+      "twitterUrl": "",
+      "devToUrl": "",
+      "redditUrl": "",
+      "tags": "",
+      "openGraphDescription": "",
+      "openGraphImage": null,
+      "notes": null
+    },
+    "rawFrontmatter": {
+      "published": "24 Mar, 2021",
+      "ebomb_url": "https://simonplend.com/notes-from-cityjs-conference-2021/"
+    }
+  },
+  {
+    "title": null,
+    "url": "https://simonplend.com/how-does-middleware-work-in-express/",
+    "sourceFilepath": "/Users/simonplend/Documents/Notes/Blog posts/Published/2021-04-20 - How does middleware work in Express?.md",
+    "frontmatter": {
+      "published": "April 20, 2021",
+      "lastUpdated": "",
+      "slug": "how-does-middleware-work-in-express",
+      "blogUrl": "https://simonplend.com/how-does-middleware-work-in-express/",
+      "twitterUrl": "https://twitter.com/simonplend/status/1384522475162292224",
+      "devToUrl": "",
+      "redditUrl": "",
+      "tags": "",
+      "openGraphDescription": "The middleware pattern is fundamental to building applications with Express, but are you really comfortable with how it works?",
+      "openGraphImage": null,
+      "notes": null
+    },
+    "rawFrontmatter": {
+      "published": "Apr 20, 2021",
+      "ebomb_url": "https://simonplend.com/how-does-middleware-work-in-express/",
+      "tweet_url": "https://twitter.com/simonplend/status/1384522475162292224",
+      "opengraph_description": "The middleware pattern is fundamental to building applications with Express, but are you really comfortable with how it works?"
+    }
+  },
+  {
+    "title": null,
+    "url": "https://simonplend.com/guidelines-for-choosing-a-node-js-framework/",
+    "sourceFilepath": "/Users/simonplend/Documents/Notes/Blog posts/Published/2021-09-28 - Guidelines for choosing a Node.js framework.md",
+    "frontmatter": {
+      "published": "September 28, 2021",
+      "lastUpdated": "",
+      "slug": "guidelines-for-choosing-a-node-js-framework",
+      "blogUrl": "https://simonplend.com/guidelines-for-choosing-a-node-js-framework/",
+      "twitterUrl": "TODO",
+      "devToUrl": "https://dev.to/simonplend/guidelines-for-choosing-a-node-js-framework-1ifk",
+      "redditUrl": "",
+      "tags": "",
+      "openGraphDescription": "With lots of frameworks, and lots of strong opinions about which is \"best\", it's easy to feel a little lost.",
+      "openGraphImage": null,
+      "notes": null
+    },
+    "rawFrontmatter": {
+      "published": "2021-09-28T00:00:00.000Z",
+      "ebomb_url": "https://simonplend.com/guidelines-for-choosing-a-node-js-framework/",
+      "tweet_url": "TODO",
+      "dev_url": "https://dev.to/simonplend/guidelines-for-choosing-a-node-js-framework-1ifk",
+      "opengraph_description": "With lots of frameworks, and lots of strong opinions about which is \"best\", it's easy to feel a little lost.",
+      "notes": "Originally sent as [[Newsletter 21]]"
+    }
+  },
+  {
+    "title": null,
+    "url": "https://simonplend.com/how-to-cancel-an-http-request-in-node-js/",
+    "sourceFilepath": "/Users/simonplend/Documents/Notes/Blog posts/Published/2021-10-20 - How to cancel an HTTP request in Node.js.md",
+    "frontmatter": {
+      "published": "October 20, 2021",
+      "lastUpdated": "",
+      "slug": "how-to-cancel-an-http-request-in-node-js",
+      "blogUrl": "https://simonplend.com/how-to-cancel-an-http-request-in-node-js/",
+      "twitterUrl": "TODO",
+      "devToUrl": "",
+      "redditUrl": "",
+      "tags": "",
+      "openGraphDescription": "It's now possible to properly cancel an HTTP request in Node.js. Let's learn how the Abort API can help us.",
+      "openGraphImage": null,
+      "notes": null
+    },
+    "rawFrontmatter": {
+      "published": "2021-10-20T00:00:00.000Z",
+      "ebomb_url": "https://simonplend.com/how-to-cancel-an-http-request-in-node-js/",
+      "tweet_url": "TODO",
+      "opengraph_description": "It's now possible to properly cancel an HTTP request in Node.js. Let's learn how the Abort API can help us.",
+      "notes": [
+        "First published as [[Newsletter 22]]",
+        {
+          "TODO": "Add a link to https://simonplend.com/talk-improving-your-applications-with-abortcontroller/"
+        },
+        {
+          "TODO": "Add link to this ebomb at the end of the [[2020-09-07 - Cancel async operations with AbortController#Example with node-fetch]] section"
+        },
+        {
+          "TODO": "Improve the [[2020-09-07 - Cancel async operations with AbortController#Example with node-fetch]] article with content from my NodeConf Remote talk e.g. compatibility table"
+        }
+      ]
+    }
+  },
+  {
+    "title": null,
+    "url": "https://simonplend.com/get-started-with-validation-in-node-js/",
+    "sourceFilepath": "/Users/simonplend/Documents/Notes/Blog posts/Published/2021-11-24 - Get started with validation in Node.js.md",
+    "frontmatter": {
+      "published": "November 24, 2021",
+      "lastUpdated": "",
+      "slug": "get-started-with-validation-in-node-js",
+      "blogUrl": "https://simonplend.com/get-started-with-validation-in-node-js/",
+      "twitterUrl": "TODO",
+      "devToUrl": "",
+      "redditUrl": "",
+      "tags": "",
+      "openGraphDescription": "Adding validation to your applications doesn't need to be a headache!",
+      "openGraphImage": null,
+      "notes": null
+    },
+    "rawFrontmatter": {
+      "published": "2021-11-24T00:00:00.000Z",
+      "ebomb_url": "https://simonplend.com/get-started-with-validation-in-node-js/",
+      "tweet_url": "TODO",
+      "opengraph_description": "Adding validation to your applications doesn't need to be a headache!",
+      "notes": [
+        "First published as [[Email 2 - Creating flexible validation rules in Node.js]]"
+      ]
+    }
+  },
+  {
+    "title": null,
+    "url": "https://simonplend.com/command-line-argument-parsing-with-node-js-core/",
+    "sourceFilepath": "/Users/simonplend/Documents/Notes/Blog posts/Published/Command-line argument parsing with Node.js core.md",
+    "frontmatter": {
+      "published": "December 26, 2022",
+      "lastUpdated": "",
+      "slug": "command-line-argument-parsing-with-node-js-core",
+      "blogUrl": "https://simonplend.com/command-line-argument-parsing-with-node-js-core/",
+      "twitterUrl": "",
+      "devToUrl": "",
+      "redditUrl": "",
+      "tags": "",
+      "openGraphDescription": "There's now a high-level API in Node.js core that can help us with command-line argument parsing: parseArgs",
+      "openGraphImage": null,
+      "notes": null
+    },
+    "rawFrontmatter": {
+      "published": "2022-12-26T00:00:00.000Z",
+      "url": "https://simonplend.com/command-line-argument-parsing-with-node-js-core/",
+      "tags": null,
+      "opengraph_description": "There's now a high-level API in Node.js core that can help us with command-line argument parsing: parseArgs"
+    }
+  },
+  {
+    "title": null,
+    "url": "https://simonplend.com/deploying-a-node-app-and-postgres-database-to-fly-io/",
+    "sourceFilepath": "/Users/simonplend/Documents/Notes/Blog posts/Published/Deploy a Node.js application and a Postgres database to Fly.io.md",
+    "frontmatter": {
+      "published": "September 8, 2022",
+      "lastUpdated": "",
+      "slug": "deploying-a-node-app-and-postgres-database-to-fly-io",
+      "blogUrl": "https://simonplend.com/deploying-a-node-app-and-postgres-database-to-fly-io/",
+      "twitterUrl": "https://twitter.com/simonplend/status/1567866639437152256",
+      "devToUrl": "",
+      "redditUrl": "",
+      "tags": "",
+      "openGraphDescription": "A quick guide to deploying a Node app and Postgres database to Fly.io.",
+      "openGraphImage": null,
+      "notes": null
+    },
+    "rawFrontmatter": {
+      "published": "2022-09-08T00:00:00.000Z",
+      "ebomb_url": "https://simonplend.com/deploying-a-node-app-and-postgres-database-to-fly-io/",
+      "tweet_url": "https://twitter.com/simonplend/status/1567866639437152256",
+      "opengraph_description": "A quick guide to deploying a Node app and Postgres database to Fly.io."
+    }
+  },
+  {
+    "title": null,
+    "url": "https://simonplend.com/use-fastify-hooks-to-set-headers-on-every-response/",
+    "sourceFilepath": "/Users/simonplend/Documents/Notes/Blog posts/Published/Use Fastify hooks to set headers on every response.md",
+    "frontmatter": {
+      "published": "July 14, 2022",
+      "lastUpdated": "",
+      "slug": "use-fastify-hooks-to-set-headers-on-every-response",
+      "blogUrl": "https://simonplend.com/use-fastify-hooks-to-set-headers-on-every-response/",
+      "twitterUrl": "TODO",
+      "devToUrl": "",
+      "redditUrl": "",
+      "tags": "",
+      "openGraphDescription": "Fastify hooks can help with setting headers for multiple routes in an API.",
+      "openGraphImage": null,
+      "notes": null
+    },
+    "rawFrontmatter": {
+      "published": "2022-07-14T00:00:00.000Z",
+      "ebomb_url": "https://simonplend.com/use-fastify-hooks-to-set-headers-on-every-response/",
+      "tweet_url": "TODO",
+      "opengraph_description": "Fastify hooks can help with setting headers for multiple routes in an API."
+    }
+  },
+  {
+    "title": null,
+    "url": "https://simonplend.com/week-notes-1/",
+    "sourceFilepath": "/Users/simonplend/Documents/Notes/Blog posts/Published/Week Notes #1.md",
+    "frontmatter": {
+      "published": "October 25, 2020",
+      "lastUpdated": "",
+      "slug": "week-notes-1",
+      "blogUrl": "https://simonplend.com/week-notes-1/",
+      "twitterUrl": "",
+      "devToUrl": "",
+      "redditUrl": "",
+      "tags": "Building My Indie Business",
+      "openGraphDescription": "",
+      "openGraphImage": null,
+      "notes": null
+    },
+    "rawFrontmatter": {
+      "url": "https://simonplend.com/week-notes-1/",
+      "Format": "Blog post",
+      "Published": "Oct 25, 2020",
+      "Status": "Published 🎉",
+      "Tags": "Building My Indie Business"
+    }
+  },
+  {
+    "title": null,
+    "url": "https://simonplend.com/week-notes-2/",
+    "sourceFilepath": "/Users/simonplend/Documents/Notes/Blog posts/Published/Week Notes #2.md",
+    "frontmatter": {
+      "published": "November 2, 2020",
+      "lastUpdated": "",
+      "slug": "week-notes-2",
+      "blogUrl": "https://simonplend.com/week-notes-2/",
+      "twitterUrl": "",
+      "devToUrl": "",
+      "redditUrl": "",
+      "tags": "Building My Indie Business",
+      "openGraphDescription": "",
+      "openGraphImage": null,
+      "notes": null
+    },
+    "rawFrontmatter": {
+      "url": "https://simonplend.com/week-notes-2/",
+      "Format": "Blog post",
+      "Published": "Nov 2, 2020",
+      "Status": "Published 🎉",
+      "Tags": "Building My Indie Business"
+    }
+  },
+  {
+    "title": null,
+    "url": "https://simonplend.com/week-notes-3/",
+    "sourceFilepath": "/Users/simonplend/Documents/Notes/Blog posts/Published/Week Notes #3.md",
+    "frontmatter": {
+      "published": "November 8, 2020",
+      "lastUpdated": "",
+      "slug": "week-notes-3",
+      "blogUrl": "https://simonplend.com/week-notes-3/",
+      "twitterUrl": "",
+      "devToUrl": "",
+      "redditUrl": "",
+      "tags": "Building My Indie Business",
+      "openGraphDescription": "",
+      "openGraphImage": null,
+      "notes": null
+    },
+    "rawFrontmatter": {
+      "Ebomb URL": "https://simonplend.com/week-notes-3/",
+      "Format": "Blog post",
+      "Published": "Nov 8, 2020",
+      "Status": "Published 🎉",
+      "Tags": "Building My Indie Business"
+    }
+  },
+  {
+    "title": null,
+    "url": "https://simonplend.com/week-notes-4/",
+    "sourceFilepath": "/Users/simonplend/Documents/Notes/Blog posts/Published/Week Notes #4.md",
+    "frontmatter": {
+      "published": "MISSING",
+      "lastUpdated": "",
+      "slug": "week-notes-4",
+      "blogUrl": "https://simonplend.com/week-notes-4/",
+      "twitterUrl": "https://twitter.com/simonplend/status/1328286376173813760",
+      "devToUrl": "",
+      "redditUrl": "",
+      "tags": "Building My Indie Business",
+      "openGraphDescription": "",
+      "openGraphImage": null,
+      "notes": null
+    },
+    "rawFrontmatter": {
+      "Ebomb URL": "https://simonplend.com/week-notes-4/",
+      "Format": "Blog post",
+      "Status": "Published 🎉",
+      "Tags": "Building My Indie Business",
+      "Tweet URL": "https://twitter.com/simonplend/status/1328286376173813760"
+    }
+  },
+  {
+    "title": null,
+    "url": "https://simonplend.com/week-notes-5/",
+    "sourceFilepath": "/Users/simonplend/Documents/Notes/Blog posts/Published/Week Notes #5.md",
+    "frontmatter": {
+      "published": "November 23, 2020",
+      "lastUpdated": "",
+      "slug": "week-notes-5",
+      "blogUrl": "https://simonplend.com/week-notes-5/",
+      "twitterUrl": "https://twitter.com/simonplend/status/1330821113803378688",
+      "devToUrl": "",
+      "redditUrl": "",
+      "tags": "Building My Indie Business",
+      "openGraphDescription": "",
+      "openGraphImage": null,
+      "notes": null
+    },
+    "rawFrontmatter": {
+      "Ebomb URL": "https://simonplend.com/week-notes-5/",
+      "Format": "Blog post",
+      "Published": "Nov 23, 2020",
+      "Status": "Published 🎉",
+      "Tags": "Building My Indie Business",
+      "Tweet URL": "https://twitter.com/simonplend/status/1330821113803378688"
+    }
+  },
+  {
+    "title": null,
+    "url": "https://simonplend.com/week-notes-6/",
+    "sourceFilepath": "/Users/simonplend/Documents/Notes/Blog posts/Published/Week Notes #6.md",
+    "frontmatter": {
+      "published": "November 30, 2020",
+      "lastUpdated": "",
+      "slug": "week-notes-6",
+      "blogUrl": "https://simonplend.com/week-notes-6/",
+      "twitterUrl": "",
+      "devToUrl": "",
+      "redditUrl": "",
+      "tags": "Building My Indie Business",
+      "openGraphDescription": "",
+      "openGraphImage": null,
+      "notes": null
+    },
+    "rawFrontmatter": {
+      "Ebomb URL": "https://simonplend.com/week-notes-6/",
+      "Format": "Blog post",
+      "Published": "Nov 30, 2020",
+      "Status": "Published 🎉",
+      "Tags": "Building My Indie Business"
+    }
+  },
+  {
+    "title": null,
+    "url": "https://simonplend.com/cancel-async-operations-with-abortcontroller/",
+    "sourceFilepath": "/Users/simonplend/Documents/Notes/Quick Tips/Published/2020-09-07 - Cancel async operations with AbortController.md",
+    "frontmatter": {
+      "published": "September 7, 2020",
+      "lastUpdated": "",
+      "slug": "cancel-async-operations-with-abortcontroller",
+      "blogUrl": "https://simonplend.com/cancel-async-operations-with-abortcontroller/",
+      "twitterUrl": "TODO",
+      "devToUrl": "",
+      "redditUrl": "",
+      "tags": "",
+      "openGraphDescription": "If you want to cancel an async operation in Node.js, such as an HTTP request, you can now use the built in AbortController and AbortSignal classes.",
+      "openGraphImage": null,
+      "notes": null
+    },
+    "rawFrontmatter": {
+      "published": "2020-09-07T00:00:00.000Z",
+      "ebomb_url": "https://simonplend.com/cancel-async-operations-with-abortcontroller/",
+      "tweet_url": "TODO",
+      "opengraph_description": "If you want to cancel an async operation in Node.js, such as an HTTP request, you can now use the built in AbortController and AbortSignal classes.",
+      "notes": "Published in [[Newsletter 20]]"
+    }
+  },
+  {
+    "title": null,
+    "url": "https://simonplend.com/generate-v4-uuids-without-needing-the-uuid-library/",
+    "sourceFilepath": "/Users/simonplend/Documents/Notes/Quick Tips/Published/2020-09-07 - Generate v4 UUIDs without needing the uuid library.md",
+    "frontmatter": {
+      "published": "September 7, 2020",
+      "lastUpdated": "",
+      "slug": "generate-v4-uuids-without-needing-the-uuid-library",
+      "blogUrl": "https://simonplend.com/generate-v4-uuids-without-needing-the-uuid-library/",
+      "twitterUrl": "TODO",
+      "devToUrl": "",
+      "redditUrl": "",
+      "tags": "",
+      "openGraphDescription": "If you want to generate v4 UUIDs in Node.js e.g. `d2c14405-a3dd-4fcc-b13b-bc649fe1a0bf`, you no longer need the uuid library.",
+      "openGraphImage": null,
+      "notes": null
+    },
+    "rawFrontmatter": {
+      "published": "2020-09-07T00:00:00.000Z",
+      "ebomb_url": "https://simonplend.com/generate-v4-uuids-without-needing-the-uuid-library/",
+      "tweet_url": "TODO",
+      "opengraph_description": "If you want to generate v4 UUIDs in Node.js e.g. `d2c14405-a3dd-4fcc-b13b-bc649fe1a0bf`, you no longer need the uuid library.",
+      "notes": "Published in [[Newsletter 20]]"
+    }
+  },
+  {
+    "title": null,
+    "url": "https://simonplend.com/background-a-process-in-the-terminal/",
+    "sourceFilepath": "/Users/simonplend/Documents/Notes/Quick Tips/Published/Background a process in the terminal.md",
+    "frontmatter": {
+      "published": "March 2, 2021",
+      "lastUpdated": "",
+      "slug": "background-a-process-in-the-terminal",
+      "blogUrl": "https://simonplend.com/background-a-process-in-the-terminal/",
+      "twitterUrl": "https://twitter.com/simonplend/status/1366738946827419651",
+      "devToUrl": "",
+      "redditUrl": "",
+      "tags": "",
+      "openGraphDescription": "",
+      "openGraphImage": null,
+      "notes": null
+    },
+    "rawFrontmatter": {
+      "published": "Mar 2, 2021",
+      "original": [
+        [
+          "Content/Tweets/Published/Background a process in the terminal"
+        ]
+      ],
+      "tweet_url": "https://twitter.com/simonplend/status/1366738946827419651",
+      "ebomb_url": "https://simonplend.com/background-a-process-in-the-terminal/"
+    }
+  },
+  {
+    "title": null,
+    "url": "https://simonplend.com/curl-download-file-command/",
+    "sourceFilepath": "/Users/simonplend/Documents/Notes/Quick Tips/Published/cURL download file command.md",
+    "frontmatter": {
+      "published": "October 21, 2020",
+      "lastUpdated": "",
+      "slug": "curl-download-file-command",
+      "blogUrl": "https://simonplend.com/curl-download-file-command/",
+      "twitterUrl": "https://twitter.com/simonplend/status/1318899848079355904",
+      "devToUrl": "",
+      "redditUrl": "",
+      "tags": "",
+      "openGraphDescription": "",
+      "openGraphImage": null,
+      "notes": null
+    },
+    "rawFrontmatter": {
+      "published": "Oct 21, 2020",
+      "original": [
+        [
+          "cURL download file syntax"
+        ]
+      ],
+      "tweet_url": "https://twitter.com/simonplend/status/1318899848079355904",
+      "ebomb_url": "https://simonplend.com/curl-download-file-command/"
+    }
+  },
+  {
+    "title": null,
+    "url": "https://simonplend.com/display-the-internal-express-logs-to-help-you-debug-your-application/",
+    "sourceFilepath": "/Users/simonplend/Documents/Notes/Quick Tips/Published/Display the internal Express logs to help you debug your application.md",
+    "frontmatter": {
+      "published": "November 19, 2020",
+      "lastUpdated": "",
+      "slug": "display-the-internal-express-logs-to-help-you-debug-your-application",
+      "blogUrl": "https://simonplend.com/display-the-internal-express-logs-to-help-you-debug-your-application/",
+      "twitterUrl": "https://twitter.com/simonplend/status/1331265558839431169",
+      "devToUrl": "",
+      "redditUrl": "",
+      "tags": "",
+      "openGraphDescription": "",
+      "openGraphImage": null,
+      "notes": null
+    },
+    "rawFrontmatter": {
+      "published": "Nov 19, 2020",
+      "original": [
+        [
+          "Content/Newsletters/Display the internal Express logs to help you debug your application"
+        ]
+      ],
+      "tweet_url": "https://twitter.com/simonplend/status/1331265558839431169",
+      "ebomb_url": "https://simonplend.com/display-the-internal-express-logs-to-help-you-debug-your-application/",
+      "notes": "Also shared in Tweet (not yet pulled in from Notion) https://www.notion.so/Display-the-internal-Express-logs-to-help-you-debug-your-application-a4e68109cccc4f269bbebbd8a6cbb724"
+    }
+  },
+  {
+    "title": null,
+    "url": "https://simonplend.com/ditch-double-bang-and-try-boolean-instead/",
+    "sourceFilepath": "/Users/simonplend/Documents/Notes/Quick Tips/Published/Ditch double bang and try Boolean instead.md",
+    "frontmatter": {
+      "published": "October 30, 2020",
+      "lastUpdated": "",
+      "slug": "ditch-double-bang-and-try-boolean-instead",
+      "blogUrl": "https://simonplend.com/ditch-double-bang-and-try-boolean-instead/",
+      "twitterUrl": "https://twitter.com/simonplend/status/1322157698025201667",
+      "devToUrl": "",
+      "redditUrl": "",
+      "tags": "",
+      "openGraphDescription": "",
+      "openGraphImage": null,
+      "notes": null
+    },
+    "rawFrontmatter": {
+      "published": "Oct 30, 2020",
+      "original": "[[!! vs Boolean()]]",
+      "tweet_url": "https://twitter.com/simonplend/status/1322157698025201667",
+      "ebomb_url": "https://simonplend.com/ditch-double-bang-and-try-boolean-instead/",
+      "notes": "Also in [[Newsletter 7]]",
+      "todo": [
+        "Change code screenshot to code block"
+      ]
+    }
+  },
+  {
+    "title": null,
+    "url": "https://simonplend.com/dont-install-body-parser-its-already-bundled-with-express/",
+    "sourceFilepath": "/Users/simonplend/Documents/Notes/Quick Tips/Published/Don't install body-parser - it's already bundled with Express.md",
+    "frontmatter": {
+      "published": "December 10, 2020",
+      "lastUpdated": "",
+      "slug": "dont-install-body-parser-its-already-bundled-with-express",
+      "blogUrl": "https://simonplend.com/dont-install-body-parser-its-already-bundled-with-express/",
+      "twitterUrl": "https://twitter.com/simonplend/status/1336987818078433283",
+      "devToUrl": "",
+      "redditUrl": "",
+      "tags": "",
+      "openGraphDescription": "",
+      "openGraphImage": null,
+      "notes": null
+    },
+    "rawFrontmatter": {
+      "published": "Dec 10, 2020",
+      "original": [
+        [
+          "Tweet about not needing to install body-parser for Express"
+        ]
+      ],
+      "tweet_url": "https://twitter.com/simonplend/status/1336987818078433283",
+      "ebomb_url": "https://simonplend.com/dont-install-body-parser-its-already-bundled-with-express/",
+      "todo": [
+        "Change code screenshot to code block"
+      ]
+    }
+  },
+  {
+    "title": null,
+    "url": "https://simonplend.com/express-uses-finalhandler-for-the-default-error-handler/",
+    "sourceFilepath": "/Users/simonplend/Documents/Notes/Quick Tips/Published/Express uses finalhandler for the default error handler.md",
+    "frontmatter": {
+      "published": "December 3, 2020",
+      "lastUpdated": "",
+      "slug": "express-uses-finalhandler-for-the-default-error-handler",
+      "blogUrl": "https://simonplend.com/express-uses-finalhandler-for-the-default-error-handler/",
+      "twitterUrl": "https://twitter.com/simonplend/status/1334511902819495938",
+      "devToUrl": "",
+      "redditUrl": "",
+      "tags": "",
+      "openGraphDescription": "",
+      "openGraphImage": null,
+      "notes": null
+    },
+    "rawFrontmatter": {
+      "published": "Dec 3, 2020",
+      "original": [
+        [
+          "Content/Tweets/Published/Express uses finalhandler for the default error handler"
+        ]
+      ],
+      "tweet_url": "https://twitter.com/simonplend/status/1334511902819495938",
+      "ebomb_url": "https://simonplend.com/express-uses-finalhandler-for-the-default-error-handler/"
+    }
+  },
+  {
+    "title": null,
+    "url": "https://simonplend.com/format-javascript-objects-and-arrays-in-debug-output/",
+    "sourceFilepath": "/Users/simonplend/Documents/Notes/Quick Tips/Published/Format JavaScript objects and arrays in debug output.md",
+    "frontmatter": {
+      "published": "October 13, 2020",
+      "lastUpdated": "",
+      "slug": "format-javascript-objects-and-arrays-in-debug-output",
+      "blogUrl": "https://simonplend.com/format-javascript-objects-and-arrays-in-debug-output/",
+      "twitterUrl": "https://twitter.com/simonplend/status/1316054629382316037",
+      "devToUrl": "",
+      "redditUrl": "",
+      "tags": "",
+      "openGraphDescription": "",
+      "openGraphImage": null,
+      "notes": null
+    },
+    "rawFrontmatter": {
+      "published": "Oct 13, 2020",
+      "original": [
+        [
+          "Formatting JavaScript objects and arrays"
+        ]
+      ],
+      "tweet_url": "https://twitter.com/simonplend/status/1316054629382316037",
+      "ebomb_url": "https://simonplend.com/format-javascript-objects-and-arrays-in-debug-output/",
+      "todo": [
+        "Convert code screenshots to code blocks"
+      ]
+    }
+  },
+  {
+    "title": null,
+    "url": "https://simonplend.com/how-to-generate-a-stack-trace-in-node-js/",
+    "sourceFilepath": "/Users/simonplend/Documents/Notes/Quick Tips/Published/How to generate a stack trace in Node.js.md",
+    "frontmatter": {
+      "published": "November 10, 2020",
+      "lastUpdated": "",
+      "slug": "how-to-generate-a-stack-trace-in-node-js",
+      "blogUrl": "https://simonplend.com/how-to-generate-a-stack-trace-in-node-js/",
+      "twitterUrl": "https://twitter.com/simonplend/status/1326177806829694976",
+      "devToUrl": "",
+      "redditUrl": "",
+      "tags": "",
+      "openGraphDescription": "",
+      "openGraphImage": null,
+      "notes": null
+    },
+    "rawFrontmatter": {
+      "published": "Nov 10, 2020",
+      "original": [
+        [
+          "Content/Tweets/Published/Today I learnt console trace() is a thing"
+        ]
+      ],
+      "tweet_url": "https://twitter.com/simonplend/status/1326177806829694976",
+      "ebomb_url": "https://simonplend.com/how-to-generate-a-stack-trace-in-node-js/",
+      "todo": [
+        "Update to be general JavaScript",
+        "Convert code screenshots to code blocks"
+      ]
+    }
+  },
+  {
+    "title": null,
+    "url": "https://simonplend.com/how-to-list-npm-run-scripts-for-a-project/",
+    "sourceFilepath": "/Users/simonplend/Documents/Notes/Quick Tips/Published/How to list npm run scripts for a project.md",
+    "frontmatter": {
+      "published": "November 26, 2020",
+      "lastUpdated": "",
+      "slug": "how-to-list-npm-run-scripts-for-a-project",
+      "blogUrl": "https://simonplend.com/how-to-list-npm-run-scripts-for-a-project/",
+      "twitterUrl": "https://twitter.com/simonplend/status/1331995002038325248",
+      "devToUrl": "",
+      "redditUrl": "",
+      "tags": "",
+      "openGraphDescription": "",
+      "openGraphImage": null,
+      "notes": null
+    },
+    "rawFrontmatter": {
+      "published": "Nov 26, 2020",
+      "original": [
+        [
+          "npm run to see all the run scripts for a project"
+        ]
+      ],
+      "tweet_url": "https://twitter.com/simonplend/status/1331995002038325248",
+      "ebomb_url": "https://simonplend.com/how-to-list-npm-run-scripts-for-a-project/",
+      "notes": "Also in [[Newsletter 10]]"
+    }
+  },
+  {
+    "title": null,
+    "url": "https://simonplend.com/how-to-output-the-contents-of-a-file-in-reverse/",
+    "sourceFilepath": "/Users/simonplend/Documents/Notes/Quick Tips/Published/How to output the contents of a file in reverse.md",
+    "frontmatter": {
+      "published": "November 9, 2020",
+      "lastUpdated": "",
+      "slug": "how-to-output-the-contents-of-a-file-in-reverse",
+      "blogUrl": "https://simonplend.com/how-to-output-the-contents-of-a-file-in-reverse/",
+      "twitterUrl": "https://twitter.com/simonplend/status/1325801560446824448",
+      "devToUrl": "",
+      "redditUrl": "",
+      "tags": "",
+      "openGraphDescription": "",
+      "openGraphImage": null,
+      "notes": null
+    },
+    "rawFrontmatter": {
+      "published": "Nov 9, 2020",
+      "original": [
+        [
+          "Today I learnt If you want to reverse the order of"
+        ]
+      ],
+      "tweet_url": "https://twitter.com/simonplend/status/1325801560446824448",
+      "ebomb_url": "https://simonplend.com/how-to-output-the-contents-of-a-file-in-reverse/"
+    }
+  },
+  {
+    "title": null,
+    "url": "https://simonplend.com/how-to-restore-changes-which-youve-reverted-from-your-main-git-branch/",
+    "sourceFilepath": "/Users/simonplend/Documents/Notes/Quick Tips/Published/How to restore changes which you've reverted from your main git branch.md",
+    "frontmatter": {
+      "published": "November 12, 2020",
+      "lastUpdated": "",
+      "slug": "how-to-restore-changes-which-youve-reverted-from-your-main-git-branch",
+      "blogUrl": "https://simonplend.com/how-to-restore-changes-which-youve-reverted-from-your-main-git-branch/",
+      "twitterUrl": "https://twitter.com/simonplend/status/1327249862056960002",
+      "devToUrl": "https://dev.to/simonplend/how-to-restore-changes-which-you-ve-reverted-from-your-main-git-branch-16d",
+      "redditUrl": "",
+      "tags": "",
+      "openGraphDescription": "",
+      "openGraphImage": null,
+      "notes": null
+    },
+    "rawFrontmatter": {
+      "published": "Nov 12, 2020",
+      "dev_post": "https://dev.to/simonplend/how-to-restore-changes-which-you-ve-reverted-from-your-main-git-branch-16d",
+      "ebomb_url": "https://simonplend.com/how-to-restore-changes-which-youve-reverted-from-your-main-git-branch/",
+      "format": "Blog post",
+      "status": "Published 🎉",
+      "tweet_url": "https://twitter.com/simonplend/status/1327249862056960002"
+    }
+  },
+  {
+    "title": null,
+    "url": "https://simonplend.com/how-to-review-your-changes-with-git-piece-by-piece/",
+    "sourceFilepath": "/Users/simonplend/Documents/Notes/Quick Tips/Published/How to review your changes with git piece by piece.md",
+    "frontmatter": {
+      "published": "October 2, 2020",
+      "lastUpdated": "",
+      "slug": "how-to-review-your-changes-with-git-piece-by-piece",
+      "blogUrl": "https://simonplend.com/how-to-review-your-changes-with-git-piece-by-piece/",
+      "twitterUrl": "",
+      "devToUrl": "https://dev.to/simonplend/how-to-review-your-changes-with-git-piece-by-piece-5hj6",
+      "redditUrl": "",
+      "tags": "Git",
+      "openGraphDescription": "",
+      "openGraphImage": null,
+      "notes": null
+    },
+    "rawFrontmatter": {
+      "published": "Oct 2, 2020",
+      "dev_post": "https://dev.to/simonplend/how-to-review-your-changes-with-git-piece-by-piece-5hj6",
+      "ebomb_url": "https://simonplend.com/how-to-review-your-changes-with-git-piece-by-piece/",
+      "format": "Blog post",
+      "status": "Published 🎉",
+      "tags": "Git"
+    }
+  },
+  {
+    "title": null,
+    "url": "https://simonplend.com/how-to-speed-up-npm-install-in-your-node-js-builds/",
+    "sourceFilepath": "/Users/simonplend/Documents/Notes/Quick Tips/Published/How to speed up npm install in your Node.js builds.md",
+    "frontmatter": {
+      "published": "February 12, 2021",
+      "lastUpdated": "",
+      "slug": "how-to-speed-up-npm-install-in-your-node-js-builds",
+      "blogUrl": "https://simonplend.com/how-to-speed-up-npm-install-in-your-node-js-builds/",
+      "twitterUrl": "",
+      "devToUrl": "",
+      "redditUrl": "",
+      "tags": "",
+      "openGraphDescription": "",
+      "openGraphImage": null,
+      "notes": null
+    },
+    "rawFrontmatter": {
+      "published": "Feb 12, 2021",
+      "original": [
+        [
+          "Newsletter 13"
+        ]
+      ],
+      "ebomb_url": "https://simonplend.com/how-to-speed-up-npm-install-in-your-node-js-builds/"
+    }
+  },
+  {
+    "title": null,
+    "url": "https://simonplend.com/how-to-use-the-nullish-coalescing-operator/",
+    "sourceFilepath": "/Users/simonplend/Documents/Notes/Quick Tips/Published/How to use the nullish coalescing operator.md",
+    "frontmatter": {
+      "published": "January 14, 2021",
+      "lastUpdated": "",
+      "slug": "how-to-use-the-nullish-coalescing-operator",
+      "blogUrl": "https://simonplend.com/how-to-use-the-nullish-coalescing-operator/",
+      "twitterUrl": "https://twitter.com/simonplend/status/1349717913775779841",
+      "devToUrl": "",
+      "redditUrl": "",
+      "tags": "",
+      "openGraphDescription": "",
+      "openGraphImage": null,
+      "notes": null
+    },
+    "rawFrontmatter": {
+      "published": "Jan 14, 2021",
+      "original": [
+        [
+          "Tip about nullish coalescing operator"
+        ]
+      ],
+      "tweet_url": "https://twitter.com/simonplend/status/1349717913775779841",
+      "ebomb_url": "https://simonplend.com/how-to-use-the-nullish-coalescing-operator/",
+      "notes": "Also shared in [[Newsletter 12]]"
+    }
+  },
+  {
+    "title": null,
+    "url": "https://simonplend.com/name-your-functions-for-better-stack-traces/",
+    "sourceFilepath": "/Users/simonplend/Documents/Notes/Quick Tips/Published/Name your functions for better stack traces.md",
+    "frontmatter": {
+      "published": "November 23, 2020",
+      "lastUpdated": "",
+      "slug": "name-your-functions-for-better-stack-traces",
+      "blogUrl": "https://simonplend.com/name-your-functions-for-better-stack-traces/",
+      "twitterUrl": "https://twitter.com/simonplend/status/1330914036922392582",
+      "devToUrl": "",
+      "redditUrl": "",
+      "tags": "",
+      "openGraphDescription": "",
+      "openGraphImage": null,
+      "notes": null
+    },
+    "rawFrontmatter": {
+      "published": "Nov 23, 2020",
+      "original": [
+        [
+          "Content/Tweets/Published/Name your functions for better stack traces"
+        ]
+      ],
+      "tweet_url": "https://twitter.com/simonplend/status/1330914036922392582",
+      "ebomb_url": "https://simonplend.com/name-your-functions-for-better-stack-traces/",
+      "todo": [
+        "WIP - Convert code screenshots to code blocks"
+      ]
+    }
+  },
+  {
+    "title": null,
+    "url": "https://simonplend.com/only-use-dotenv-in-development/",
+    "sourceFilepath": "/Users/simonplend/Documents/Notes/Quick Tips/Published/Only use dotenv in development.md",
+    "frontmatter": {
+      "published": "December 9, 2020",
+      "lastUpdated": "",
+      "slug": "only-use-dotenv-in-development",
+      "blogUrl": "https://simonplend.com/only-use-dotenv-in-development/",
+      "twitterUrl": "https://twitter.com/simonplend/status/1339940441270185985",
+      "devToUrl": "",
+      "redditUrl": "",
+      "tags": "",
+      "openGraphDescription": "",
+      "openGraphImage": null,
+      "notes": null
+    },
+    "rawFrontmatter": {
+      "published": "Dec 9, 2020",
+      "original": [
+        [
+          "Newsletter 9"
+        ]
+      ],
+      "tweet_url": "https://twitter.com/simonplend/status/1339940441270185985",
+      "ebomb_url": "https://simonplend.com/only-use-dotenv-in-development/",
+      "notes": "Details for this tip in [[Content/Newsletters/Only use dotenv in development]]"
+    }
+  },
+  {
+    "title": null,
+    "url": "https://simonplend.com/save-your-git-stashes-with-helpful-descriptions/",
+    "sourceFilepath": "/Users/simonplend/Documents/Notes/Quick Tips/Published/Save your git stashes with helpful descriptions.md",
+    "frontmatter": {
+      "published": "October 28, 2020",
+      "lastUpdated": "",
+      "slug": "save-your-git-stashes-with-helpful-descriptions",
+      "blogUrl": "https://simonplend.com/save-your-git-stashes-with-helpful-descriptions/",
+      "twitterUrl": "https://twitter.com/simonplend/status/1321466980474490881",
+      "devToUrl": "",
+      "redditUrl": "",
+      "tags": "",
+      "openGraphDescription": "",
+      "openGraphImage": null,
+      "notes": null
+    },
+    "rawFrontmatter": {
+      "published": "Oct 28, 2020",
+      "original": [
+        [
+          "Use git stash push for descriptive stashes"
+        ]
+      ],
+      "tweet_url": "https://twitter.com/simonplend/status/1321466980474490881",
+      "ebomb_url": "https://simonplend.com/save-your-git-stashes-with-helpful-descriptions/",
+      "notes": "Also in [[Newsletter 6]]",
+      "todo": [
+        "Change code screenshots to code blocks"
+      ]
+    }
+  },
+  {
+    "title": null,
+    "url": "https://simonplend.com/tips-for-migrating-from-express-to-fastify/",
+    "sourceFilepath": "/Users/simonplend/Documents/Notes/Quick Tips/Published/Tips for migrating from Express to Fastify.md",
+    "frontmatter": {
+      "published": "March 11, 2021",
+      "lastUpdated": "",
+      "slug": "tips-for-migrating-from-express-to-fastify",
+      "blogUrl": "https://simonplend.com/tips-for-migrating-from-express-to-fastify/",
+      "twitterUrl": "https://twitter.com/simonplend/status/1370017177047158788",
+      "devToUrl": "",
+      "redditUrl": "",
+      "tags": "",
+      "openGraphDescription": "",
+      "openGraphImage": null,
+      "notes": null
+    },
+    "rawFrontmatter": {
+      "published": "Mar 11, 2021",
+      "original": [
+        [
+          "fastify-express learnings thread"
+        ]
+      ],
+      "tweet_url": "https://twitter.com/simonplend/status/1370017177047158788",
+      "ebomb_url": "https://simonplend.com/tips-for-migrating-from-express-to-fastify/"
+    }
+  },
+  {
+    "title": null,
+    "url": "https://simonplend.com/try-a-standard-format-for-api-error-responses/",
+    "sourceFilepath": "/Users/simonplend/Documents/Notes/Quick Tips/Published/Try a standard format for  API error responses.md",
+    "frontmatter": {
+      "published": "November 18, 2020",
+      "lastUpdated": "",
+      "slug": "try-a-standard-format-for-api-error-responses",
+      "blogUrl": "https://simonplend.com/try-a-standard-format-for-api-error-responses/",
+      "twitterUrl": "https://twitter.com/simonplend/status/1329031607601139715",
+      "devToUrl": "",
+      "redditUrl": "",
+      "tags": "",
+      "openGraphDescription": "",
+      "openGraphImage": null,
+      "notes": null
+    },
+    "rawFrontmatter": {
+      "published": "Nov 18, 2020",
+      "original": [
+        [
+          "Content/Tweets/Published/Error responses with Problem Details for HTTP APIs"
+        ]
+      ],
+      "tweet_url": "https://twitter.com/simonplend/status/1329031607601139715",
+      "ebomb_url": "https://simonplend.com/try-a-standard-format-for-api-error-responses/"
+    }
+  },
+  {
+    "title": null,
+    "url": "https://simonplend.com/try-out-command-line-tools-with-npx/",
+    "sourceFilepath": "/Users/simonplend/Documents/Notes/Quick Tips/Published/Try out command line tools with npx.md",
+    "frontmatter": {
+      "published": "September 29, 2020",
+      "lastUpdated": "",
+      "slug": "try-out-command-line-tools-with-npx",
+      "blogUrl": "https://simonplend.com/try-out-command-line-tools-with-npx/",
+      "twitterUrl": "",
+      "devToUrl": "",
+      "redditUrl": "",
+      "tags": "",
+      "openGraphDescription": "",
+      "openGraphImage": null,
+      "notes": null
+    },
+    "rawFrontmatter": {
+      "published": "Sep 29, 2020",
+      "original": [
+        [
+          "Newsletter 3"
+        ]
+      ],
+      "ebomb_url": "https://simonplend.com/try-out-command-line-tools-with-npx/"
+    }
+  },
+  {
+    "title": null,
+    "url": "https://simonplend.com/use-the-github-cli-to-help-reduce-context-switching/",
+    "sourceFilepath": "/Users/simonplend/Documents/Notes/Quick Tips/Published/Use the GitHub CLI to help reduce context switching.md",
+    "frontmatter": {
+      "published": "October 20, 2020",
+      "lastUpdated": "",
+      "slug": "use-the-github-cli-to-help-reduce-context-switching",
+      "blogUrl": "https://simonplend.com/use-the-github-cli-to-help-reduce-context-switching/",
+      "twitterUrl": "https://twitter.com/simonplend/status/1319579358646984704",
+      "devToUrl": "",
+      "redditUrl": "",
+      "tags": "",
+      "openGraphDescription": "",
+      "openGraphImage": null,
+      "notes": null
+    },
+    "rawFrontmatter": {
+      "published": "Oct 20, 2020",
+      "original": [
+        [
+          "Newsletter 5"
+        ]
+      ],
+      "tweet_url": "https://twitter.com/simonplend/status/1319579358646984704",
+      "ebomb_url": "https://simonplend.com/use-the-github-cli-to-help-reduce-context-switching/",
+      "notes": "Shared on Twitter too [[Tweet How to create a pull request with the GitHub]]"
+    }
+  },
+  {
+    "title": null,
+    "url": "https://simonplend.com/using-object-shorthand-when-debugging/",
+    "sourceFilepath": "/Users/simonplend/Documents/Notes/Quick Tips/Published/Using object shorthand when debugging.md",
+    "frontmatter": {
+      "published": "October 14, 2020",
+      "lastUpdated": "",
+      "slug": "using-object-shorthand-when-debugging",
+      "blogUrl": "https://simonplend.com/using-object-shorthand-when-debugging/",
+      "twitterUrl": "https://twitter.com/simonplend/status/1316315872881979392",
+      "devToUrl": "",
+      "redditUrl": "",
+      "tags": "",
+      "openGraphDescription": "",
+      "openGraphImage": null,
+      "notes": null
+    },
+    "rawFrontmatter": {
+      "published": "Oct 14, 2020",
+      "original": [
+        [
+          "Content/Tweets/Published/Using object shorthand when debugging"
+        ]
+      ],
+      "tweet_url": "https://twitter.com/simonplend/status/1316315872881979392",
+      "ebomb_url": "https://simonplend.com/using-object-shorthand-when-debugging/"
+    }
+  },
+  {
+    "title": null,
+    "url": "https://simonplend.com/what-are-the-express-req-and-res-objects/",
+    "sourceFilepath": "/Users/simonplend/Documents/Notes/Quick Tips/Published/What are the Express req and res objects.md",
+    "frontmatter": {
+      "published": "November 12, 2020",
+      "lastUpdated": "",
+      "slug": "what-are-the-express-req-and-res-objects",
+      "blogUrl": "https://simonplend.com/what-are-the-express-req-and-res-objects/",
+      "twitterUrl": "https://twitter.com/simonplend/status/1326853498034548736",
+      "devToUrl": "",
+      "redditUrl": "",
+      "tags": "",
+      "openGraphDescription": "",
+      "openGraphImage": null,
+      "notes": null
+    },
+    "rawFrontmatter": {
+      "published": "Nov 12, 2020",
+      "original": [
+        [
+          "Ever wondered what req and res objects in Express actually are"
+        ]
+      ],
+      "tweet_url": "https://twitter.com/simonplend/status/1326853498034548736",
+      "ebomb_url": "https://simonplend.com/what-are-the-express-req-and-res-objects/"
+    }
+  },
+  {
+    "title": null,
+    "url": "https://simonplend.com/workshop-recording-get-started-with-fastify/",
+    "sourceFilepath": "/Users/simonplend/Documents/Notes/Videos/Published/2021-09-14 - Workshop recording - Get Started with Fastify.md",
+    "frontmatter": {
+      "published": "September 14, 2021",
+      "lastUpdated": "",
+      "slug": "workshop-recording-get-started-with-fastify",
+      "blogUrl": "https://simonplend.com/workshop-recording-get-started-with-fastify/",
+      "twitterUrl": "TODO",
+      "devToUrl": "",
+      "redditUrl": "",
+      "tags": "",
+      "openGraphDescription": "This is a recording of the free Get Started With Fastify workshop that I ran on May 18th, 2021. Code on GitHub.",
+      "openGraphImage": null,
+      "notes": null
+    },
+    "rawFrontmatter": {
+      "published": "2021-09-14T00:00:00.000Z",
+      "ebomb_url": "https://simonplend.com/workshop-recording-get-started-with-fastify/",
+      "tweet_url": "TODO",
+      "reddit_url": "none",
+      "opengraph_description": "This is a recording of the free Get Started With Fastify workshop that I ran on May 18th, 2021. Code on GitHub."
+    }
+  },
+  {
+    "title": null,
+    "url": "https://simonplend.com/learning-fastify-how-to-migrate-your-app-from-express-to-fastify/",
+    "sourceFilepath": "/Users/simonplend/Documents/Notes/Videos/Published/Learning Fastify - How to migrate your app from Express to Fastify.md",
+    "frontmatter": {
+      "published": "March 12, 2021",
+      "lastUpdated": "",
+      "slug": "learning-fastify-how-to-migrate-your-app-from-express-to-fastify",
+      "blogUrl": "https://simonplend.com/learning-fastify-how-to-migrate-your-app-from-express-to-fastify/",
+      "twitterUrl": "",
+      "devToUrl": "",
+      "redditUrl": "",
+      "tags": "",
+      "openGraphDescription": "",
+      "openGraphImage": null,
+      "notes": null
+    },
+    "rawFrontmatter": {
+      "published": "Mar 12, 2021",
+      "ebomb_url": "https://simonplend.com/learning-fastify-how-to-migrate-your-app-from-express-to-fastify/",
+      "vimeo_url": "https://vimeo.com/545046463/199764c2f3",
+      "open_graph_description": "Learn how to migrate your existing Express applications to Fastify without needing to rewrite them from scratch."
+    }
+  },
+  {
+    "title": null,
+    "url": "https://youtu.be/1ptcs5vRSvo",
+    "sourceFilepath": "/Users/simonplend/Documents/Notes/Videos/Published/Learning Fastify - Part 1 - Why I'm writing a plugin.md",
+    "frontmatter": {
+      "published": "September 16, 2020",
+      "lastUpdated": "",
+      "slug": "youtu.be",
+      "blogUrl": "https://youtu.be/1ptcs5vRSvo",
+      "twitterUrl": "",
+      "devToUrl": "",
+      "redditUrl": "",
+      "tags": "Fastify",
+      "openGraphDescription": "",
+      "openGraphImage": null,
+      "notes": null
+    },
+    "rawFrontmatter": {
+      "Ebomb URL": "https://youtu.be/1ptcs5vRSvo",
+      "Format": "Video",
+      "Published": "Sep 16, 2020",
+      "Status": "Published 🎉",
+      "Tags": "Fastify"
+    }
+  },
+  {
+    "title": null,
+    "url": "https://youtu.be/e9ZuMEGY7Nk",
+    "sourceFilepath": "/Users/simonplend/Documents/Notes/Videos/Published/Learning Fastify - Part 2 - Creating my first application.md",
+    "frontmatter": {
+      "published": "September 17, 2020",
+      "lastUpdated": "",
+      "slug": "youtu.be",
+      "blogUrl": "https://youtu.be/e9ZuMEGY7Nk",
+      "twitterUrl": "",
+      "devToUrl": "",
+      "redditUrl": "",
+      "tags": "Fastify",
+      "openGraphDescription": "",
+      "openGraphImage": null,
+      "notes": null
+    },
+    "rawFrontmatter": {
+      "Ebomb URL": "https://youtu.be/e9ZuMEGY7Nk",
+      "Format": "Video",
+      "Published": "Sep 17, 2020",
+      "Status": "Published 🎉",
+      "Tags": "Fastify"
+    }
+  },
+  {
+    "title": null,
+    "url": "https://youtu.be/17qoZq2Eq5U",
+    "sourceFilepath": "/Users/simonplend/Documents/Notes/Videos/Published/Learning Fastify - Part 3 - Creating my first plugin.md",
+    "frontmatter": {
+      "published": "October 15, 2020",
+      "lastUpdated": "",
+      "slug": "youtu.be",
+      "blogUrl": "https://youtu.be/17qoZq2Eq5U",
+      "twitterUrl": "https://twitter.com/simonplend/status/1316814802908516354",
+      "devToUrl": "",
+      "redditUrl": "",
+      "tags": "Fastify",
+      "openGraphDescription": "",
+      "openGraphImage": null,
+      "notes": null
+    },
+    "rawFrontmatter": {
+      "Ebomb URL": "https://youtu.be/17qoZq2Eq5U",
+      "Format": "Video",
+      "Published": "Oct 15, 2020",
+      "Status": "Published 🎉",
+      "Tags": "Fastify",
+      "Tweet URL": "https://twitter.com/simonplend/status/1316814802908516354"
+    }
+  },
+  {
+    "title": null,
+    "url": "https://simonplend.com/learning-fastify-part-4-create-a-proxy-server-for-api-authentication/",
+    "sourceFilepath": "/Users/simonplend/Documents/Notes/Videos/Published/Learning Fastify - Part 4 - Create a proxy server for API authentication.md",
+    "frontmatter": {
+      "published": "February 11, 2021",
+      "lastUpdated": "",
+      "slug": "learning-fastify-part-4-create-a-proxy-server-for-api-authentication",
+      "blogUrl": "https://simonplend.com/learning-fastify-part-4-create-a-proxy-server-for-api-authentication/",
+      "twitterUrl": "https://twitter.com/simonplend/status/1360186747834007552",
+      "devToUrl": "",
+      "redditUrl": "",
+      "tags": "Learning Fastify",
+      "openGraphDescription": "",
+      "openGraphImage": null,
+      "notes": null
+    },
+    "rawFrontmatter": {
+      "Ebomb URL": "https://simonplend.com/learning-fastify-part-4-create-a-proxy-server-for-api-authentication/",
+      "Format": "Video",
+      "Published": "Feb 11, 2021",
+      "Status": "Published 🎉",
+      "Tags": "Learning Fastify",
+      "Tweet URL": "https://twitter.com/simonplend/status/1360186747834007552",
+      "Vimeo URL": "https://vimeo.com/511180519/162da7962f"
+    }
+  },
+  {
+    "title": null,
+    "url": "https://simonplend.com/talk-improving-your-applications-with-abortcontroller/",
+    "sourceFilepath": "/Users/simonplend/Documents/Notes/Videos/Published/Talk - Improving your applications with AbortController.md",
+    "frontmatter": {
+      "published": "MISSING",
+      "lastUpdated": "",
+      "slug": "talk-improving-your-applications-with-abortcontroller",
+      "blogUrl": "https://simonplend.com/talk-improving-your-applications-with-abortcontroller/",
+      "twitterUrl": "",
+      "devToUrl": "",
+      "redditUrl": "",
+      "tags": "",
+      "openGraphDescription": "",
+      "openGraphImage": null,
+      "notes": null
+    },
+    "rawFrontmatter": {
+      "ebomb_url": "https://simonplend.com/talk-improving-your-applications-with-abortcontroller/",
+      "youtube_url": "https://www.youtube.com/watch?v=TBz_yq8h2sI&list=PL0CdgOSSGlBbvNDKMs1RTA-NS-ZwtUm0G",
+      "notes": [
+        {
+          "TODO": "Add link to this page to simonplend.com/nodeconf2021"
+        },
+        {
+          "TODO": "Add link to this page to talks repo on GitHub"
+        }
+      ]
+    }
+  },
+  {
+    "title": null,
+    "url": "https://simonplend.com/trying-out-http-toolkit-with-fastify-http-proxy/",
+    "sourceFilepath": "/Users/simonplend/Documents/Notes/Videos/Published/Trying out HTTP Toolkit with fastify-http-proxy.md",
+    "frontmatter": {
+      "published": "January 13, 2021",
+      "lastUpdated": "",
+      "slug": "trying-out-http-toolkit-with-fastify-http-proxy",
+      "blogUrl": "https://simonplend.com/trying-out-http-toolkit-with-fastify-http-proxy/",
+      "twitterUrl": "",
+      "devToUrl": "",
+      "redditUrl": "",
+      "tags": "",
+      "openGraphDescription": "",
+      "openGraphImage": null,
+      "notes": null
+    },
+    "rawFrontmatter": {
+      "Ebomb URL": "https://simonplend.com/trying-out-http-toolkit-with-fastify-http-proxy/",
+      "Format": "Video",
+      "Published": "Jan 13, 2021",
+      "Status": "Published 🎉",
+      "Vimeo URL": "https://vimeo.com/500053847"
+    }
+  },
+  {
+    "title": null,
+    "url": "https://simonplend.com/provide-context-with-abortsignal-reason/",
+    "sourceFilepath": "/Users/simonplend/Documents/Notes/Whats new in Node.js core/Features/Abort API/abortsignal-reason/Blog post.md",
+    "frontmatter": {
+      "published": "March 29, 2022",
+      "lastUpdated": "",
+      "slug": "provide-context-with-abortsignal-reason",
+      "blogUrl": "https://simonplend.com/provide-context-with-abortsignal-reason/",
+      "twitterUrl": "",
+      "devToUrl": "",
+      "redditUrl": "",
+      "tags": "",
+      "openGraphDescription": "It's now possible to provide a reason value when triggering an abort signal in Node.js.",
+      "openGraphImage": null,
+      "notes": null
+    },
+    "rawFrontmatter": {
+      "published": "2022-03-29T00:00:00.000Z",
+      "url": "https://simonplend.com/provide-context-with-abortsignal-reason/",
+      "opengraph_image": "og-provide-context-with-abortsignal-reason.pngs",
+      "opengraph_description": "It's now possible to provide a reason value when triggering an abort signal in Node.js."
+    }
+  },
+  {
+    "title": null,
+    "url": "https://simonplend.com/avoid-boilerplate-code-when-handling-abort-signals/",
+    "sourceFilepath": "/Users/simonplend/Documents/Notes/Whats new in Node.js core/Features/Abort API/abortsignal-throwifaborted/Blog post.md",
+    "frontmatter": {
+      "published": "March 30, 2022",
+      "lastUpdated": "",
+      "slug": "avoid-boilerplate-code-when-handling-abort-signals",
+      "blogUrl": "https://simonplend.com/avoid-boilerplate-code-when-handling-abort-signals/",
+      "twitterUrl": "",
+      "devToUrl": "",
+      "redditUrl": "",
+      "tags": "",
+      "openGraphDescription": "The abortSignal.throwIfAborted() method makes it easier to write code that handles abort signals.",
+      "openGraphImage": null,
+      "notes": null
+    },
+    "rawFrontmatter": {
+      "published": "2022-03-30T00:00:00.000Z",
+      "url": "https://simonplend.com/avoid-boilerplate-code-when-handling-abort-signals/",
+      "opengraph_image": "og-avoid-boilerplate-code-when-handling-abort-signals.png",
+      "opengraph_description": "The abortSignal.throwIfAborted() method makes it easier to write code that handles abort signals."
+    }
+  },
+  {
+    "title": null,
+    "url": "https://simonplend.com/automatically-cancel-async-operations-with-abortsignal-timeout/",
+    "sourceFilepath": "/Users/simonplend/Documents/Notes/Whats new in Node.js core/Features/Abort API/abortsignal-timeout/Blog post.md",
+    "frontmatter": {
+      "published": "March 22, 2022",
+      "lastUpdated": "",
+      "slug": "automatically-cancel-async-operations-with-abortsignal-timeout",
+      "blogUrl": "https://simonplend.com/automatically-cancel-async-operations-with-abortsignal-timeout/",
+      "twitterUrl": "",
+      "devToUrl": "",
+      "redditUrl": "",
+      "tags": "",
+      "openGraphDescription": "In Node.js you can now automatically cancel async operations, such as a slow HTTP request.",
+      "openGraphImage": null,
+      "notes": null
+    },
+    "rawFrontmatter": {
+      "published": "2022-03-22T00:00:00.000Z",
+      "url": "https://simonplend.com/automatically-cancel-async-operations-with-abortsignal-timeout/",
+      "opengraph_image": "og-automatically-cancel-async-operations-with-abortsignal-timeout.png",
+      "opengraph_description": "In Node.js you can now automatically cancel async operations, such as a slow HTTP request."
+    }
+  },
+  {
+    "title": null,
+    "url": "https://simonplend.com/the-fetch-api-in-node-js/",
+    "sourceFilepath": "/Users/simonplend/Documents/Notes/Whats new in Node.js core/Features/Fetch API/Blog post.md",
+    "frontmatter": {
+      "published": "March 31, 2022",
+      "lastUpdated": "",
+      "slug": "the-fetch-api-in-node-js",
+      "blogUrl": "https://simonplend.com/the-fetch-api-in-node-js/",
+      "twitterUrl": "",
+      "devToUrl": "",
+      "redditUrl": "",
+      "tags": "",
+      "openGraphDescription": "Making HTTP requests in Node.js just got easier with an experimental Fetch API implementation.",
+      "openGraphImage": null,
+      "notes": null
+    },
+    "rawFrontmatter": {
+      "published": "2022-03-31T00:00:00.000Z",
+      "url": "https://simonplend.com/the-fetch-api-in-node-js/",
+      "opengraph_image": "og-the-fetch-api-in-node-js.png",
+      "opengraph_description": "Making HTTP requests in Node.js just got easier with an experimental Fetch API implementation."
+    }
+  },
+  {
+    "title": null,
+    "url": "https://simonplend.com/import-json-in-es-modules/",
+    "sourceFilepath": "/Users/simonplend/Documents/Notes/Whats new in Node.js core/Features/Import JSON modules in ES modules/Blog post.md",
+    "frontmatter": {
+      "published": "March 24, 2020",
+      "lastUpdated": "",
+      "slug": "import-json-in-es-modules",
+      "blogUrl": "https://simonplend.com/import-json-in-es-modules/",
+      "twitterUrl": "",
+      "devToUrl": "",
+      "redditUrl": "",
+      "tags": "",
+      "openGraphDescription": "",
+      "openGraphImage": null,
+      "notes": null
+    },
+    "rawFrontmatter": {
+      "published": "2020-03-24T00:00:00.000Z",
+      "url": "https://simonplend.com/import-json-in-es-modules/",
+      "opengraph_image": "og-import-json-in-es-modules.png",
+      "opengraph_desc": "Node.js now supports importing JSON files in ES modules *without* the need to pass an experimental flag."
+    }
+  },
+  {
+    "title": null,
+    "url": "https://simonplend.com/make-your-imports-clearer-with-the-node-protocol/",
+    "sourceFilepath": "/Users/simonplend/Documents/Notes/Whats new in Node.js core/Features/node protocol/Blog post.md",
+    "frontmatter": {
+      "published": "September 7, 2021",
+      "lastUpdated": "",
+      "slug": "make-your-imports-clearer-with-the-node-protocol",
+      "blogUrl": "https://simonplend.com/make-your-imports-clearer-with-the-node-protocol/",
+      "twitterUrl": "TODO",
+      "devToUrl": "",
+      "redditUrl": "",
+      "tags": "",
+      "openGraphDescription": "Use the node: protocol to make it clear in your code when you're importing built in Node.js modules.",
+      "openGraphImage": null,
+      "notes": null
+    },
+    "rawFrontmatter": {
+      "published": "2021-09-07T00:00:00.000Z",
+      "ebomb_url": "https://simonplend.com/make-your-imports-clearer-with-the-node-protocol/",
+      "tweet_url": "TODO",
+      "opengraph_description": "Use the node: protocol to make it clear in your code when you're importing built in Node.js modules.",
+      "notes": "Published in Newsletter 18 and Newsletter 20"
+    }
+  },
+  {
+    "title": null,
+    "url": "https://simonplend.com/take-advantage-of-promise-based-apis-in-node-js/",
+    "sourceFilepath": "/Users/simonplend/Documents/Notes/Whats new in Node.js core/Features/Promise-based APIs/Blog post.md",
+    "frontmatter": {
+      "published": "September 7, 2021",
+      "lastUpdated": "",
+      "slug": "take-advantage-of-promise-based-apis-in-node-js",
+      "blogUrl": "https://simonplend.com/take-advantage-of-promise-based-apis-in-node-js/",
+      "twitterUrl": "TODO",
+      "devToUrl": "",
+      "redditUrl": "",
+      "tags": "",
+      "openGraphDescription": "Node.js APIs are mostly callback-based, but did you know that it provides several promise-based APIs to?",
+      "openGraphImage": null,
+      "notes": null
+    },
+    "rawFrontmatter": {
+      "published": "2021-09-07T00:00:00.000Z",
+      "ebomb_url": "https://simonplend.com/take-advantage-of-promise-based-apis-in-node-js/",
+      "tweet_url": "TODO",
+      "opengraph_image": "og-take-advantage-of-promise-based-apis-in-node-js.png",
+      "opengraph_description": "Node.js APIs are mostly callback-based, but did you know that it provides several promise-based APIs to?",
+      "notes": "Published in Newsletter 20"
+    }
+  },
+  {
+    "title": null,
+    "url": "https://simonplend.com/deep-clone-values-with-structuredclone/",
+    "sourceFilepath": "/Users/simonplend/Documents/Notes/Whats new in Node.js core/Features/structuredClone/Blog post.md",
+    "frontmatter": {
+      "published": "March 20, 2020",
+      "lastUpdated": "",
+      "slug": "deep-clone-values-with-structuredclone",
+      "blogUrl": "https://simonplend.com/deep-clone-values-with-structuredclone/",
+      "twitterUrl": "",
+      "devToUrl": "",
+      "redditUrl": "",
+      "tags": "",
+      "openGraphDescription": "",
+      "openGraphImage": null,
+      "notes": null
+    },
+    "rawFrontmatter": {
+      "published": "2020-03-20T00:00:00.000Z",
+      "url": "https://simonplend.com/deep-clone-values-with-structuredclone/",
+      "opengraph_image": "og-deep-clone-values-with-structuredclone.png",
+      "opengraph_desc": "We no longer need to use hacks to deep clone objects in Node.js."
+    }
+  },
+  {
+    "title": null,
+    "url": "https://simonplend.com/whats-new-in-node-js-core-march-2022-edition/",
+    "sourceFilepath": "/Users/simonplend/Documents/Notes/Whats new in Node.js core/March 2022 edition/Blog post.md",
+    "frontmatter": {
+      "published": "March 31, 2022",
+      "lastUpdated": "",
+      "slug": "whats-new-in-node-js-core-march-2022-edition",
+      "blogUrl": "https://simonplend.com/whats-new-in-node-js-core-march-2022-edition/",
+      "twitterUrl": "",
+      "devToUrl": "",
+      "redditUrl": "",
+      "tags": "",
+      "openGraphDescription": "",
+      "openGraphImage": null,
+      "notes": null
+    },
+    "rawFrontmatter": {
+      "published": "2022-03-31T00:00:00.000Z",
+      "url": "https://simonplend.com/whats-new-in-node-js-core-march-2022-edition/",
+      "opengraph_image": "og-whats-new-in-node-js-core-march-2022.png",
+      "opengraph_desc": "Deep clone values, auto cancel async operations, Fetch API, and more!",
+      "reddit_url": "https://www.reddit.com/r/node/comments/tsxyk8/whats_new_in_nodejs_core_march_2022_edition/"
+    }
+  },
+  {
+    "title": null,
+    "url": "https://simonplend.com/whats-new-in-node-js-core-september-2021/",
+    "sourceFilepath": "/Users/simonplend/Documents/Notes/Whats new in Node.js core/September 2021 edition/Blog post.md",
+    "frontmatter": {
+      "published": "September 6, 2021",
+      "lastUpdated": "",
+      "slug": "whats-new-in-node-js-core-september-2021",
+      "blogUrl": "https://simonplend.com/whats-new-in-node-js-core-september-2021/",
+      "twitterUrl": "https://twitter.com/simonplend/status/1435219200822423552",
+      "devToUrl": "",
+      "redditUrl": "",
+      "tags": "",
+      "openGraphDescription": "What's  new in Node.js core? September 2021 edition",
+      "openGraphImage": null,
+      "notes": null
+    },
+    "rawFrontmatter": {
+      "published": "2021-09-06T00:00:00.000Z",
+      "ebomb_url": "https://simonplend.com/whats-new-in-node-js-core-september-2021/",
+      "tweet_url": "https://twitter.com/simonplend/status/1435219200822423552",
+      "reddit_url": "https://www.reddit.com/r/node/comments/pjmx21/whats_new_in_nodejs_core/",
+      "opengraph_description": "What's  new in Node.js core? September 2021 edition"
+    }
+  }
+]
