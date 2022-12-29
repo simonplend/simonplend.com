@@ -4,10 +4,9 @@ import * as path from "node:path";
 import { parseArgs } from "node:util";
 
 import glob from "glob";
-import matter from 'gray-matter';
+import matter from "gray-matter";
 
 import { createLogger } from "./lib/logger.mjs";
-import { format } from "node:path";
 
 function formatDate(dateValue, fallback) {
   if (typeof dateValue === "string") {
@@ -23,7 +22,7 @@ function formatDate(dateValue, fallback) {
       dateValue.getDate(),
       dateValue.getFullYear(),
     ];
-    dateValue = `${month} ${day}, ${year}`;
+    dateValue = `${month} ${day} ${year}`;
   } else {
     dateValue = fallback;
   }
@@ -56,7 +55,10 @@ if (options.quiet) {
 
 const logger = createLogger({ loggerLevel });
 
-const obsidianNotesDirPath = `${os.homedir()}/Documents/Notes`;
+const obsidianNotesDirPath = `${os.homedir()}/dev/test-blog-posts`;
+
+// WARNING: THIS IS THE PATH TO THE ORIGINAL SOURCE POSTS
+// const obsidianNotesDirPath = `${os.homedir()}/Documents/Notes`;
 
 const globPatterns = [
     "Blog posts/Published/*.md",
@@ -86,10 +88,12 @@ let foundFrontmatterKeys = [];
 const failedPosts = [];
 for (const filepath of postFilepaths) {
   const postMarkdown = fs.readFileSync(filepath, { encoding: "utf-8" });
-  let rawFrontmatter;
+  let rawFrontmatter, postContent;
 
   try {
-    rawFrontmatter = matter(postMarkdown).data;
+    const { data, content } = matter(postMarkdown);
+    rawFrontmatter = data;
+    postContent = content;
   } catch (error) {
     logger.debug(`Error parsing post: ${filepath}`);
     logger.debug(error);
@@ -101,6 +105,8 @@ for (const filepath of postFilepaths) {
 
   logger.debug({ filepath, rawFrontmatter });
 
+  const title = /# (?<title>.+)/.exec(postContent).groups?.title;
+
   const url = rawFrontmatter["url"] || rawFrontmatter["ebomb_url"] || rawFrontmatter["Ebomb URL"] || "";
 
   let published = rawFrontmatter["published"] || rawFrontmatter["Published"] || null;
@@ -109,22 +115,35 @@ for (const filepath of postFilepaths) {
   published = formatDate(published, "MISSING");  
   lastUpdated = formatDate(lastUpdated, "");
 
+  let tags = rawFrontmatter["tags"] || rawFrontmatter["Tags"] || "";
+  if (tags) {
+    tags = tags.toLowerCase().split(",").map(tag => {
+      return tag.trim().replaceAll(" ", "-");
+    });
+  } else {
+    tags = [];
+  }
+
   const post = {
-      title: null, // TODO:
+      title,
       url,
       sourceFilepath: filepath,
       frontmatter: {
-        published, // TODO: Decide whether to use format '2021-09-07' OR 'September 7, 2021'
-        lastUpdated, // TODO: Normalise
+        // Fields required by blog: title, description, datetime, slug, tags
+        // Optional fields used by blog: featured, draft, ogImage, author
+        title, // TODO: Decide whether to set this in frontmatter, currently required by blog
+        description: rawFrontmatter["opengraph_description"] || "",
+        datetime: published, // TODO: Change back to `published`
         slug: url.split("/").at(-2),
-        blogUrl: url,
-        twitterUrl: rawFrontmatter["tweet_url"] || rawFrontmatter["Tweet URL"] || "",
-        devToUrl: rawFrontmatter["url_dev"] || rawFrontmatter["dev_post"] || rawFrontmatter["dev_url"] || rawFrontmatter["DEV URL"] || rawFrontmatter["DEV post"] || "",
-        redditUrl: rawFrontmatter["reddit_post"] || rawFrontmatter["Reddit URL"] || rawFrontmatter["Reddit post"] || "",
-        tags: rawFrontmatter["tags"] || rawFrontmatter["Tags"] || "", // TODO: Normalise to an array of lowercase strings
-        openGraphDescription: rawFrontmatter["opengraph_description"] || "",
-        openGraphImage: null, // TODO:
-        notes: null // TODO:
+        tags,
+        // Fields to add in later:
+        // lastUpdated,
+        // blogUrl: url,
+        // twitterUrl: rawFrontmatter["tweet_url"] || rawFrontmatter["Tweet URL"] || "",
+        // devToUrl: rawFrontmatter["url_dev"] || rawFrontmatter["dev_post"] || rawFrontmatter["dev_url"] || rawFrontmatter["DEV URL"] || rawFrontmatter["DEV post"] || "",
+        // redditUrl: rawFrontmatter["reddit_post"] || rawFrontmatter["Reddit URL"] || rawFrontmatter["Reddit post"] || "",
+        // openGraphImage: null, // TODO:
+        // notes: null // TODO:
       },
       rawFrontmatter,
   };
@@ -154,6 +173,7 @@ fs.writeFileSync(path.resolve(options.out), JSON.stringify(posts, null, 2));
 
 logger.info(`Posts data written to ${options.out}`);
 
+// TODO: Refactor this into a standalone script e.g. explore-posts.mjs --field tags
 const outputKey = "tags";
 const values = posts.map((post) => post.frontmatter[outputKey]);
 logger.debug(`posts[].frontmatter.${outputKey} values:\n\n${values.join("\n")}`);

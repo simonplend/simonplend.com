@@ -19,7 +19,6 @@ type BlogPosts = Array<{
 
 ```
 published = published, Published
-lastUpdated = last_updated
 blogUrl = url, ebomb_url, Ebomb URL
 twitterUrl = tweet_url, Tweet URL
 devToUrl = url_dev, dev_post, dev_url, DEV URL, DEV post
@@ -28,6 +27,11 @@ tags = tags, Tags
 openGraphDescription = opengraph_description
 openGraphImage = TODO: Where is this data?
 notes = TODO: Combine: original, notes, todo
+changelog:
+  - date: July 27, 2022 (last_updated)
+    description: "This is a description of what changed"
+  - date: ...
+    description: ...
 ```
 
 ### To drop

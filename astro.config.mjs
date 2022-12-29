@@ -4,7 +4,7 @@ import tailwind from "@astrojs/tailwind";
 import react from "@astrojs/react";
 import remarkToc from "remark-toc";
 // import remarkCollapse from "remark-collapse";
-import remarkOembedExports from '@agentofuser/remark-oembed';
+import remarkOembedExports from "@agentofuser/remark-oembed";
 const remarkOembed = remarkOembedExports.default;
 import sitemap from "@astrojs/sitemap";
 import mdx from "@astrojs/mdx";
@@ -28,11 +28,11 @@ export default defineConfig({
       [
         remarkToc,
         {
-          heading: 'Jump links'
-        }
+          heading: "Jump links",
+        },
       ],
       // TODO: Remove this and the npm dependency?
-      remarkOembed,
+      // remarkOembed,
       // TODO: Remove this and the npm dependency?
       // [
       //   remarkCollapse,
